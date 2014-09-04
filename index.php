@@ -16,5 +16,12 @@
                         <a href="#">contact</a>
                 </nav>
         </header>
+        <div class="site-content">
+                <div class="featured">
+                        <h1>Advanced Bootstrap Tutorials with SASS</h1>
+                        <p>Hi how are you ? Are you going to school today</p>
+                        <p>Hi how are you ? Are you going to school today</p>
+                </div>
+        </div>
 </body>
 </html>

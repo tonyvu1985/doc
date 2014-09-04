@@ -8067,3 +8067,82 @@ body:after {
     width: 1170px;
   }
 }
+
+/* line 18, ../scss/main.scss */
+.site-header {
+  margin-left: -15px;
+  margin-right: -15px;
+  color: white;
+}
+/* line 15, ../assets/stylesheets/bootstrap/mixins/_clearfix.scss */
+.site-header:before, .site-header:after {
+  content: " ";
+  display: table;
+}
+/* line 19, ../assets/stylesheets/bootstrap/mixins/_clearfix.scss */
+.site-header:after {
+  clear: both;
+}
+/* line 21, ../scss/main.scss */
+.site-header a {
+  color: inherit;
+}
+/* line 24, ../scss/main.scss */
+.site-header .site-logo {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: blue;
+}
+@media (min-width: 768px) {
+  /* line 24, ../scss/main.scss */
+  .site-header .site-logo {
+    float: left;
+    width: 25%;
+  }
+}
+/* line 28, ../scss/main.scss */
+.site-header .site-nav {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: red;
+}
+@media (min-width: 768px) {
+  /* line 28, ../scss/main.scss */
+  .site-header .site-nav {
+    float: left;
+    width: 75%;
+  }
+}
+
+/* line 34, ../scss/main.scss */
+.site-content {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+/* line 15, ../assets/stylesheets/bootstrap/mixins/_clearfix.scss */
+.site-content:before, .site-content:after {
+  content: " ";
+  display: table;
+}
+/* line 19, ../assets/stylesheets/bootstrap/mixins/_clearfix.scss */
+.site-content:after {
+  clear: both;
+}
+/* line 36, ../scss/main.scss */
+.site-content .featured {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 768px) {
+  /* line 36, ../scss/main.scss */
+  .site-content .featured {
+    float: left;
+    width: 100%;
+  }
+}

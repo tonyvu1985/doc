@@ -14,3 +14,26 @@ body{
 		width: $container-lg;
 	}
 }
+
+.site-header{
+	@include make-row();
+	color: white;
+	a{
+		color: inherit;
+	}
+	.site-logo{
+		@include make-sm-column(3);
+		background-color:blue;
+	}
+	.site-nav{
+		@include make-sm-column(9);
+		background-color:red;
+	}
+}
+
+.site-content{
+	@include make-row();
+	.featured{
+		@include make-sm-column(12);
+	}
+}
