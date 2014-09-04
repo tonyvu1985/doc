@@ -31,9 +31,9 @@ body{
 	}
 	.subscribe
 	{
-		@include $btn-primary-color:              
-		@include $btn-primary-bg:                 
-		@include $btn-primary-border:  
+		@include btn-primary-color;              
+		@include btn-primary-bg;                 
+		@include btn-primary-border;  
 	}
 }
 
