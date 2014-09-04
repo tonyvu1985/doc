@@ -6,7 +6,6 @@
         <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-	// include
 	<?php include_once('nav.php'); ?>
 
         <div class="site-content">
