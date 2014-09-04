@@ -8049,3 +8049,21 @@ body:before, body:after {
 body:after {
   clear: both;
 }
+@media (min-width: 768px) {
+  /* line 4, ../scss/main.scss */
+  body {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  /* line 4, ../scss/main.scss */
+  body {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 4, ../scss/main.scss */
+  body {
+    width: 1170px;
+  }
+}
