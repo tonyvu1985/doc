@@ -35,6 +35,7 @@ body{
 	@include make-row();
 	.featured{
 		@include make-sm-column(12);
+		background-color:grep;
 	}
 }
 
@@ -42,12 +43,20 @@ body{
 	@include make-row();
 	.widget{
 		@include make-sm-column(4);
+		background-color:green;
+		border: 3px solid #000;
 	}
 }
 
 .site-footer{
 	@include make-row();
+	color:white;
+	a{
+		color: inherit;
+	}
+
 	.site-info{
 		@include make-sm-column(4);
+		@include make-sm-column-offset(4);
 	}
 }
