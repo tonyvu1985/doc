@@ -8114,9 +8114,9 @@ body:after {
 }
 /* line 29, ../scss/main.scss */
 .site-header .subscribe {
-  color: btn-primary-color;
-  background-color: btn-primary-bg;
-  border: btn-primary-border;
+  color: white;
+  background-color: #428bca;
+  border: #357ebd;
 }
 
 /* line 36, ../scss/main.scss */
