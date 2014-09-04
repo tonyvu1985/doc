@@ -25,9 +25,15 @@ body{
 		@include make-sm-column(3);
 		background-color:blue;
 	}
-	.site-nav{
+	.contact{
 		@include make-sm-column(9);
 		background-color:red;
+	}
+	.subscribe
+	{
+		@include $btn-primary-color:              
+		@include $btn-primary-bg:                 
+		@include $btn-primary-border:  
 	}
 }
 
