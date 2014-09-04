@@ -37,3 +37,17 @@ body{
 		@include make-sm-column(12);
 	}
 }
+
+.site-widgets{
+	@include make-row();
+	.widget{
+		@include make-sm-column(4);
+	}
+}
+
+.site-footer{
+	@include make-row();
+	.site-info{
+		@include make-sm-column(4);
+	}
+}

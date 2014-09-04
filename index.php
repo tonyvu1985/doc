@@ -23,5 +23,41 @@
                         <p>Hi how are you ? Are you going to school today</p>
                 </div>
         </div>
+        <div class="site-widgets">
+                <section class="widget">
+                        <h2>Latest News</h2>
+                        <ul>
+                                <li>one</li>
+                                <li>second</li>
+                                <li>three</li>
+                                <li>four</li>
+                        </ul>
+                </section>
+
+                <section class="widget">
+                        <h2>Recent Tutorials</h2>
+                        <ul>
+                                <li>one</li>
+                                <li>second</li>
+                                <li>three</li>
+                                <li>four</li>
+                        </ul>
+                </section>
+
+                <section class="widget">
+                        <h2>Social Media</h2>
+                        <ul>
+                                <li>one</li>
+                                <li>second</li>
+                                <li>three</li>
+                                <li>four</li>
+                        </ul>
+                </section>
+        </div>
+        <footer class="site-footer">
+                <div class="site-info">
+                        <a href="#">easy web development tutorials</a>
+                </div>
+        </footer>
 </body>
 </html>
