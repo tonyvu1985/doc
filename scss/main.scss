@@ -17,10 +17,6 @@ body{
 
 .site-header{
 	@include make-row();
-	color: white;
-	a{
-		color: inherit;
-	}
 	.site-logo{
 		@include make-sm-column(3);
 		background-color:blue;
@@ -31,9 +27,9 @@ body{
 	}
 	.subscribe
 	{
-		@include btn-primary-color;              
-		@include btn-primary-bg;                 
-		@include btn-primary-border;  
+		color: btn-primary-color;              
+		background-color: btn-primary-bg;                 
+		border: btn-primary-border;  
 	}
 }
 
