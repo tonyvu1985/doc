@@ -23,8 +23,9 @@ body{
 	.contact{
 		@include make-sm-column(9);
 	}
-	.subscribe
+	.btnhealthfund
 	{
+		@include button-variant(#cece19, #000000, #2dbe27);
 /*		color: $btn-primary-color;              
 		background-color: $btn-primary-bg;                 
 		border: $btn-primary-border;  */
