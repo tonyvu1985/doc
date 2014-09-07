@@ -8079,7 +8079,6 @@ body:after {
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
-  background-color: blue;
 }
 @media (min-width: 768px) {
   /* line 20, ../scss/main.scss */
@@ -8088,29 +8087,28 @@ body:after {
     width: 25%;
   }
 }
-/* line 24, ../scss/main.scss */
+/* line 23, ../scss/main.scss */
 .site-header .contact {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
-  background-color: red;
 }
 @media (min-width: 768px) {
-  /* line 24, ../scss/main.scss */
+  /* line 23, ../scss/main.scss */
   .site-header .contact {
     float: left;
     width: 75%;
   }
 }
-/* line 28, ../scss/main.scss */
+/* line 26, ../scss/main.scss */
 .site-header .subscribe {
-  color: #fff;
-  background-color: #428bca;
-  border: #357ebd;
+  /*		color: $btn-primary-color;              
+  		background-color: $btn-primary-bg;                 
+  		border: $btn-primary-border;  */
 }
 
-/* line 36, ../scss/main.scss */
+/* line 34, ../scss/main.scss */
 .site-content {
   margin-left: -15px;
   margin-right: -15px;
@@ -8124,58 +8122,42 @@ body:after {
 .site-content:after {
   clear: both;
 }
-/* line 38, ../scss/main.scss */
+/* line 36, ../scss/main.scss */
 .site-content .featured {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
-  background-color: grep;
 }
 @media (min-width: 768px) {
-  /* line 38, ../scss/main.scss */
+  /* line 36, ../scss/main.scss */
   .site-content .featured {
     float: left;
-    width: 100%;
+    width: 25%;
   }
 }
-
-/* line 44, ../scss/main.scss */
-.site-widgets {
-  margin-left: -15px;
-  margin-right: -15px;
-}
-/* line 14, ../assets/stylesheets/bootstrap/mixins/_clearfix.scss */
-.site-widgets:before, .site-widgets:after {
-  content: " ";
-  display: table;
-}
-/* line 19, ../assets/stylesheets/bootstrap/mixins/_clearfix.scss */
-.site-widgets:after {
-  clear: both;
-}
-/* line 46, ../scss/main.scss */
-.site-widgets .widget {
+/* line 39, ../scss/main.scss */
+.site-content .content {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
-  background-color: green;
-  border: 3px solid #000;
 }
 @media (min-width: 768px) {
-  /* line 46, ../scss/main.scss */
-  .site-widgets .widget {
+  /* line 39, ../scss/main.scss */
+  .site-content .content {
     float: left;
-    width: 33.33333%;
+    width: 75%;
   }
 }
 
-/* line 53, ../scss/main.scss */
+/* line 44, ../scss/main.scss */
 .site-footer {
   margin-left: -15px;
   margin-right: -15px;
   color: white;
+  background-color: #5bc0de;
+  padding: 16px;
 }
 /* line 14, ../assets/stylesheets/bootstrap/mixins/_clearfix.scss */
 .site-footer:before, .site-footer:after {
@@ -8186,27 +8168,31 @@ body:after {
 .site-footer:after {
   clear: both;
 }
-/* line 56, ../scss/main.scss */
-.site-footer a {
-  color: inherit;
-}
-/* line 60, ../scss/main.scss */
-.site-footer .site-info {
+/* line 49, ../scss/main.scss */
+.site-footer .city {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
 }
 @media (min-width: 768px) {
-  /* line 60, ../scss/main.scss */
-  .site-footer .site-info {
+  /* line 49, ../scss/main.scss */
+  .site-footer .city {
     float: left;
-    width: 33.33333%;
+    width: 50%;
   }
 }
+/* line 53, ../scss/main.scss */
+.site-footer .fairfield {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 @media (min-width: 768px) {
-  /* line 60, ../scss/main.scss */
-  .site-footer .site-info {
-    margin-left: 33.33333%;
+  /* line 53, ../scss/main.scss */
+  .site-footer .fairfield {
+    float: left;
+    width: 50%;
   }
 }

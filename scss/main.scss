@@ -19,46 +19,38 @@ body{
 	@include make-row();
 	.site-logo{
 		@include make-sm-column(3);
-		background-color:blue;
 	}
 	.contact{
 		@include make-sm-column(9);
-		background-color:red;
 	}
 	.subscribe
 	{
-		color: $btn-primary-color;              
+/*		color: $btn-primary-color;              
 		background-color: $btn-primary-bg;                 
-		border: $btn-primary-border;  
+		border: $btn-primary-border;  */
 	}
 }
 
 .site-content{
 	@include make-row();
 	.featured{
-		@include make-sm-column(12);
-		background-color:grep;
+		@include make-sm-column(3);
 	}
-}
-
-.site-widgets{
-	@include make-row();
-	.widget{
-		@include make-sm-column(4);
-		background-color:green;
-		border: 3px solid #000;
+	.content{
+		@include make-sm-column(9);
 	}
 }
 
 .site-footer{
 	@include make-row();
 	color:white;
-	a{
-		color: inherit;
+	background-color: $brand-info;
+	padding: $padding-large-horizontal;
+	.city{
+		@include make-sm-column(6);
+	//	@include make-sm-column-offset(4);
 	}
-
-	.site-info{
-		@include make-sm-column(4);
-		@include make-sm-column-offset(4);
+	.fairfield{
+		@include make-sm-column(6);
 	}
 }
