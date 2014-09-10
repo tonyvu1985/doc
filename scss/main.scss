@@ -37,6 +37,9 @@ body{
 	}
 	.content{
 		@include make-sm-column(9);
+		.service{
+			@include make-sm-column(6);
+		}
 	}
 }
 

@@ -12,7 +12,7 @@
 			<img src="" alt="" />
 		</div>
 		<div class="col-md-3">
-			Call to action(book appt now)
+			<?php include_once('enquire.php'); ?>
 		</div>
 
 
@@ -29,10 +29,31 @@
                 </div>
 
 		<div class="content">
-			<h1>Heading</h1>
-			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-			<h3>Sub heading</h3>
-			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+			<h1>Welcome to New China Acupuncture Centre</h1>
+			<p>The ancient Chinese people discovered a blueprint for the human body. A timeless system so powerful that it has survived more than 5,000 years. Today, this system for promoting health and wellbeing is known as Traditional Chinese Medicine.</p>
+			<p>As the Western world rediscovers the benefits of the traditional Chinese healing arts, modalities such as Acupuncture and Chinese Herbal Medicine are being recognised for their ability to treat numerous diseases and promote wellbeing, whilst providing a more holistic approach to health.</p>
+			<p>I invite you to browse this site for an introduction to the wonderful world of Traditional Chinese Medicine and discover what Acupuncture & Chinese Herbal Medicine can do for you. Come and experience these ancient healing modalities for yourself and see how you too can reap the benefits of an ageless tradition.</p>
+			<p>As a practitioner of 35 years in TCM, my expertise is in treating the following conditions:</p>
+			<div class="service">
+				<ul>
+					<li>Acupuncture Facelift</li>
+					<li>Back Pain</li>
+					<li>Bell’s Palsy</li>
+					<li>Cough & Bronchitis</li>
+					<li>Fatigue</li>
+					<li>Fever & Coughs</li>
+				</ul>
+			</div>
+			<div class="service">
+				<ul>
+					<li>Headaches & Migraines</li>
+					<li>Infertility</li>
+					<li>Neck & Shoulder Pain</li>
+					<li>Skin Complaints</li>
+					<li>Stress/Anxiety</li>
+					<li>Sport Injuries</li>
+				</ul>
+			</div>
 		</div>
         </div>
 
