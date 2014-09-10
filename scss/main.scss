@@ -26,9 +26,7 @@ body{
 	.btnhealthfund
 	{
 		@include button-variant(#cece19, #000000, #2dbe27);
-/*		color: $btn-primary-color;              
-		background-color: $btn-primary-bg;                 
-		border: $btn-primary-border;  */
+		@include button-size(6px, 12px, 14px, 1.4, 4px); 
 	}
 }
 
