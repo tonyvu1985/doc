@@ -8103,19 +8103,19 @@ body:after {
 }
 /* line 26, ../scss/main.scss */
 .site-header .btnhealthfund {
-  color: #cece19;
-  background-color: #000000;
-  border-color: #2dbe27;
+  color: #fff;
+  background-color: #5bc0de;
+  border-color: #fff;
   padding: 6px 12px;
   font-size: 14px;
-  line-height: 1.4;
+  line-height: 1.42857;
   border-radius: 4px;
 }
 /* line 11, ../assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .site-header .btnhealthfund:hover, .site-header .btnhealthfund:focus, .site-header .btnhealthfund:active, .site-header .btnhealthfund.active, .open > .site-header .btnhealthfund.dropdown-toggle {
-  color: #cece19;
-  background-color: black;
-  border-color: #218b1d;
+  color: #fff;
+  background-color: #31b0d5;
+  border-color: #e0e0e0;
 }
 /* line 20, ../assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .site-header .btnhealthfund:active, .site-header .btnhealthfund.active, .open > .site-header .btnhealthfund.dropdown-toggle {
@@ -8123,16 +8123,20 @@ body:after {
 }
 /* line 28, ../assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .site-header .btnhealthfund.disabled, .site-header .btnhealthfund.disabled:hover, .site-header .btnhealthfund.disabled:focus, .site-header .btnhealthfund.disabled:active, .site-header .btnhealthfund.disabled.active, .site-header .btnhealthfund[disabled], .site-header .btnhealthfund[disabled]:hover, .site-header .btnhealthfund[disabled]:focus, .site-header .btnhealthfund[disabled]:active, .site-header .btnhealthfund[disabled].active, fieldset[disabled] .site-header .btnhealthfund, fieldset[disabled] .site-header .btnhealthfund:hover, fieldset[disabled] .site-header .btnhealthfund:focus, fieldset[disabled] .site-header .btnhealthfund:active, fieldset[disabled] .site-header .btnhealthfund.active {
-  background-color: #000000;
-  border-color: #2dbe27;
+  background-color: #5bc0de;
+  border-color: #fff;
 }
 /* line 38, ../assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .site-header .btnhealthfund .badge {
-  color: #000000;
-  background-color: #cece19;
+  color: #5bc0de;
+  background-color: #fff;
+}
+/* line 30, ../scss/main.scss */
+.site-header .btnhealthfund:hover {
+  text-decoration: none;
 }
 
-/* line 33, ../scss/main.scss */
+/* line 36, ../scss/main.scss */
 .site-content {
   margin-left: -15px;
   margin-right: -15px;
@@ -8146,7 +8150,7 @@ body:after {
 .site-content:after {
   clear: both;
 }
-/* line 35, ../scss/main.scss */
+/* line 38, ../scss/main.scss */
 .site-content .featured {
   position: relative;
   min-height: 1px;
@@ -8154,13 +8158,13 @@ body:after {
   padding-right: 15px;
 }
 @media (min-width: 768px) {
-  /* line 35, ../scss/main.scss */
+  /* line 38, ../scss/main.scss */
   .site-content .featured {
     float: left;
     width: 25%;
   }
 }
-/* line 38, ../scss/main.scss */
+/* line 41, ../scss/main.scss */
 .site-content .content {
   position: relative;
   min-height: 1px;
@@ -8168,13 +8172,13 @@ body:after {
   padding-right: 15px;
 }
 @media (min-width: 768px) {
-  /* line 38, ../scss/main.scss */
+  /* line 41, ../scss/main.scss */
   .site-content .content {
     float: left;
     width: 75%;
   }
 }
-/* line 40, ../scss/main.scss */
+/* line 43, ../scss/main.scss */
 .site-content .content .service {
   position: relative;
   min-height: 1px;
@@ -8182,14 +8186,14 @@ body:after {
   padding-right: 15px;
 }
 @media (min-width: 768px) {
-  /* line 40, ../scss/main.scss */
+  /* line 43, ../scss/main.scss */
   .site-content .content .service {
     float: left;
     width: 50%;
   }
 }
 
-/* line 46, ../scss/main.scss */
+/* line 49, ../scss/main.scss */
 .site-footer {
   margin-left: -15px;
   margin-right: -15px;
@@ -8206,7 +8210,7 @@ body:after {
 .site-footer:after {
   clear: both;
 }
-/* line 51, ../scss/main.scss */
+/* line 54, ../scss/main.scss */
 .site-footer .city {
   position: relative;
   min-height: 1px;
@@ -8214,13 +8218,13 @@ body:after {
   padding-right: 15px;
 }
 @media (min-width: 768px) {
-  /* line 51, ../scss/main.scss */
+  /* line 54, ../scss/main.scss */
   .site-footer .city {
     float: left;
     width: 50%;
   }
 }
-/* line 55, ../scss/main.scss */
+/* line 58, ../scss/main.scss */
 .site-footer .fairfield {
   position: relative;
   min-height: 1px;
@@ -8228,7 +8232,7 @@ body:after {
   padding-right: 15px;
 }
 @media (min-width: 768px) {
-  /* line 55, ../scss/main.scss */
+  /* line 58, ../scss/main.scss */
   .site-footer .fairfield {
     float: left;
     width: 50%;

@@ -25,8 +25,11 @@ body{
 	}
 	.btnhealthfund
 	{
-		@include button-variant(#cece19, #5bc0de, #2dbe27);
-		@include button-size(6px, 12px, 14px, 1.4, 4px); 
+		@include button-variant(#fff, $brand-info, $btn-info-color);
+		@include button-size($padding-base-vertical, $padding-base-horizontal, $font-size-base, $line-height-base, $border-radius-base); 
+		&:hover{
+			text-decoration:none;
+		}
 	}
 }
 

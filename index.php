@@ -7,15 +7,15 @@
 <body>
 	<?php include_once('nav.php'); ?>
 
-        <div class="site-content">
+        <div class="site-content"> <!-- header -->
 		<div class="banner col-md-9">
-			<img src="" alt="" />
+			<?php include_once('carousel.php'); ?>
 		</div>
 		<div class="col-md-3">
 			<?php include_once('enquire.php'); ?>
 		</div>
-
-
+	</div>
+	<div class="site-content"><!-- content -->
                 <div class="featured">
 			<section class="widget">
 				<h3>Treatments</h3>
