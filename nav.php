@@ -2,8 +2,7 @@
 <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script src="assets/javascripts/bootstrap.js"></script>
 
-<div class="site-header">
-	<div class="navbar navbar-default" role="navigation"><!-- Nav bar -->
+<div class="navbar navbar-default" role="navigation"><!-- Nav bar -->
 	<div class="container-fluid">
 	  <div class="navbar-header">
 	    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
@@ -39,11 +38,11 @@
 	    </ul>
 	  </div><!--/.nav-collapse -->
 	</div><!--/.container-fluid -->
-	</div><!-- End Nav bar -->
+</div><!-- End Nav bar -->
 
 <div class="top">
 	<div class="site-logo">
-		<a><img src="" alt="" />logo</a>
+		<a><img src="images/new-china-acupuncture-logo.png" alt="new china acupuncture logo" /></a>
 	</div>
 
 	<div class="contact text-right">
@@ -55,6 +54,5 @@
 </div>
 
 
-</div>
 
 

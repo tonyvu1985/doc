@@ -10,6 +10,6 @@
 				<option value="Sydney">Sydney</option>
 				<option value="Fairfield">Fairfield</option>
 			</select>
-			<p><input type="submit" class="btnsubmit btn-danger" value="Submit"></p>
+			<p><button type="submit" class="btnsubmit" value="Submit">Submit</button></p>
 		</form>
 </div>

@@ -1,6 +1,5 @@
 @import "compass";
 @import "bootstrap";
-
 body{
 	@include container-fixed();
 
@@ -15,8 +14,9 @@ body{
 	}
 }
 
-.site-header{
+.top{
 	@include make-row();
+	padding: 25px 0;
 	.site-logo{
 		@include make-sm-column(3);
 	}
@@ -30,6 +30,14 @@ body{
 		&:hover{
 			text-decoration:none;
 		}
+	}
+}
+
+.leftcoldiv{
+	.btnsubmit{
+		@include button-variant(#fff, $brand-danger, $btn-danger-color);
+		@include button-size($padding-base-vertical, $padding-base-horizontal, $font-size-base, $line-height-base, $border-radius-base);
+		margin-top:20px
 	}
 }
 
