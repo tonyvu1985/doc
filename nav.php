@@ -18,7 +18,7 @@
 	      <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">About <span class="caret"></span></a>
 			<ul class="dropdown-menu" role="menu">
 			  <li><a href="about.php">About Hoc</a></li>
-			  <li><a href="media.php">Media aritcles</a></li>
+			  <li><a href="article.php">Media aritcles</a></li>
 			</ul>
 		</li>
 	      <li class="dropdown">
@@ -26,15 +26,15 @@
 		<ul class="dropdown-menu" role="menu">
 		  <li><a href="acupuncture.php">Acupuncture</a></li>
 		  <li><a href="herbs.php">Herbs</a></li>
-		  <li><a href="#">Cupping</a></li>
-		  <li><a href="#">Moxibustion</a></li>
-		  <li><a href="#">Tuina</a></li>
+		  <li><a href="cupping.php">Cupping</a></li>
+		  <li><a href="moxibustion.php">Moxibustion</a></li>
+		  <li><a href="tuina.php">Tuina</a></li>
 		</ul>   
 	      </li>
-	      <li><a href="#">Conditions</a></li>
+	      <li><a href="condition.php">Conditions</a></li>
 	      <li><a href="#">Nutrition</a></li>
-	      <li><a href="#">FAQ</a></li>
-	      <li><a href="#">Contact</a></li>
+	      <li><a href="faq.php">FAQ</a></li>
+	      <li><a href="contact.php">Contact</a></li>
 	    </ul>
 	  </div><!--/.nav-collapse -->
 	</div><!--/.container-fluid -->
