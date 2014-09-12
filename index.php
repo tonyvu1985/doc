@@ -5,6 +5,7 @@
         <title>doc website</title>
 </head>
 <body>
+<div class="wrapper">
 	<?php include_once('nav.php'); ?>
 
         <div class="site-content"> <!-- header -->
@@ -19,11 +20,13 @@
                 <div class="featured">
 			<section class="widget">
 				<h3>Treatments</h3>
-				<ul>
-					<li>one</li>
-					<li>second</li>
-					<li>three</li>
-					<li>four</li>
+				<ul class="treatments">
+					<li><a href="">Diet & Lifestyle</a></li>
+					<li><a href="">Cupping</a></li>
+					<li><a href="">Moxibustion</a></li>
+					<li><a href="">Tuina</a></li>
+					<li><a href="">Health Funds</a></li>
+					<li><a href="">Media Articles</a></li>
 				</ul>
 			</section>
                 </div>
@@ -59,4 +62,6 @@
 
 	<!-- Footer -->
 	<?php include_once('footer.php'); ?>
+</div>
+</body>
 </html>

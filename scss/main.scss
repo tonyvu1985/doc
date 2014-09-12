@@ -1,5 +1,8 @@
 @import "compass";
 @import "bootstrap";
+
+.btnhoc{text-align:center; text-transform:uppercase; display:block; margin-top:20px;}
+
 body{
 	@include container-fixed();
 
@@ -12,10 +15,17 @@ body{
 	@media(min-width: $screen-lg-min){
 		width: $container-lg;
 	}
+	background:url('../images/seamless_paper_texture.png')repeat top left;
 }
-
-.top{
+.wrapper{
 	@include make-row();
+	background:#fff;
+}
+.treatments {padding:0}
+.treatments li{list-style-type:none; padding: 5px 0}
+.navbar{border:0; border-radius:0}
+.top{
+	@include make-xs-column(12);
 	padding: 25px 0;
 	.site-logo{
 		@include make-sm-column(3);
@@ -37,12 +47,12 @@ body{
 	.btnsubmit{
 		@include button-variant(#fff, $brand-danger, $btn-danger-color);
 		@include button-size($padding-base-vertical, $padding-base-horizontal, $font-size-base, $line-height-base, $border-radius-base);
-		margin-top:20px
+		@extend .btnhoc;
 	}
 }
 
 .site-content{
-	@include make-row();
+	@include make-xs-column(12);
 	.featured{
 		@include make-sm-column(3);
 	}
@@ -55,7 +65,7 @@ body{
 }
 
 .site-footer{
-	@include make-row();
+	@include make-xs-column(12);
 	color:white;
 	background-color: $brand-info;
 	padding: $padding-large-horizontal;
