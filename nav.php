@@ -11,21 +11,21 @@
 	      <span class="icon-bar"></span>
 	      <span class="icon-bar"></span>
 	    </button>
-	    <a class="navbar-brand" href="#">Home</a>
+	    <a class="navbar-brand" href="/">Home</a>
 	  </div>        
 	  <div class="navbar-collapse collapse">
 	    <ul class="nav navbar-nav">
 	      <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">About <span class="caret"></span></a>
 			<ul class="dropdown-menu" role="menu">
-			  <li><a href="#">About Hoc</a></li>
-			  <li><a href="#">Media aritcles</a></li>
+			  <li><a href="about.php">About Hoc</a></li>
+			  <li><a href="media.php">Media aritcles</a></li>
 			</ul>
 		</li>
 	      <li class="dropdown">
 		<a href="#" class="dropdown-toggle" data-toggle="dropdown">Treatment<span class="caret"></span></a>
 		<ul class="dropdown-menu" role="menu">
-		  <li><a href="#">Acupuncture</a></li>
-		  <li><a href="#">Herbs</a></li>
+		  <li><a href="acupuncture.php">Acupuncture</a></li>
+		  <li><a href="herbs.php">Herbs</a></li>
 		  <li><a href="#">Cupping</a></li>
 		  <li><a href="#">Moxibustion</a></li>
 		  <li><a href="#">Tuina</a></li>

@@ -17,20 +17,8 @@
 		</div>
 	</div>
 	<div class="site-content"><!-- content -->
-                <div class="featured">
-			<section class="widget">
-				<h3>Treatments</h3>
-				<ul class="treatments">
-					<li><a href="">Diet & Lifestyle</a></li>
-					<li><a href="">Cupping</a></li>
-					<li><a href="">Moxibustion</a></li>
-					<li><a href="">Tuina</a></li>
-					<li><a href="">Health Funds</a></li>
-					<li><a href="">Media Articles</a></li>
-				</ul>
-			</section>
-                </div>
-
+		<!-- Left Nav -->
+		<?php include_once('LeftNav.php'); ?>
 		<div class="content">
 			<h1>Welcome to New China Acupuncture Centre</h1>
 			<p>The ancient Chinese people discovered a blueprint for the human body. A timeless system so powerful that it has survived more than 5,000 years. Today, this system for promoting health and wellbeing is known as Traditional Chinese Medicine.</p>
