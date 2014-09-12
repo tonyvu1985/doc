@@ -1,7 +1,7 @@
 @import "compass";
 @import "bootstrap";
 
-.btnhoc{text-align:center; text-transform:uppercase; display:block; margin-top:20px;}
+.btnhoc{text-align:center; text-transform:uppercase; margin-top:20px;}
 
 body{
 	@include container-fixed();
@@ -17,29 +17,20 @@ body{
 	}
 	background:url('../images/seamless_paper_texture.png')repeat top left;
 }
-.wrapper{
-	@include make-row();
-	background:#fff;
-}
+.wrapper{@include make-row();background:#fff;}
 .treatments {padding:0}
 .treatments li{list-style-type:none; padding: 5px 0}
 .navbar{border:0; border-radius:0}
 .top{
 	@include make-xs-column(12);
 	padding: 25px 0;
-	.site-logo{
-		@include make-sm-column(3);
-	}
-	.contact{
-		@include make-sm-column(9);
-	}
-	.btnhealthfund
-	{
+	.site-logo{@include make-sm-column(3);}
+	.contact{@include make-sm-column(9);}
+	.btnhealthfund{
 		@include button-variant(#fff, $brand-info, $btn-info-color);
 		@include button-size($padding-base-vertical, $padding-base-horizontal, $font-size-base, $line-height-base, $border-radius-base); 
-		&:hover{
-			text-decoration:none;
-		}
+		&:hover{text-decoration:none;}
+		@extend .btnhoc;
 	}
 }
 
@@ -48,6 +39,7 @@ body{
 		@include button-variant(#fff, $brand-danger, $btn-danger-color);
 		@include button-size($padding-base-vertical, $padding-base-horizontal, $font-size-base, $line-height-base, $border-radius-base);
 		@extend .btnhoc;
+		display:block;
 	}
 }
 
@@ -58,9 +50,7 @@ body{
 	}
 	.content{
 		@include make-sm-column(9);
-		.service{
-			@include make-xs-column(6);
-		}
+		.service{@include make-xs-column(6);}
 		// about page
 		.about{@include make-xs-column(12);}
 		.hocimg{@include make-xs-column(2); padding-left:0}
@@ -69,15 +59,11 @@ body{
 }
 
 .site-footer{
+	margin-top:30px;
 	@include make-xs-column(12);
 	color:white;
 	background-color: $brand-info;
 	padding: $padding-large-horizontal;
-	.city{
-		@include make-sm-column(6);
-	//	@include make-sm-column-offset(4);
-	}
-	.fairfield{
-		@include make-sm-column(6);
-	}
+	.city{@include make-sm-column(6);/*	@include make-sm-column-offset(4);*/}
+	.fairfield{@include make-sm-column(6);}
 }

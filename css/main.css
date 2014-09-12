@@ -8025,10 +8025,9 @@ button.close {
   }
 }
 /* line 4, ../scss/main.scss */
-.btnhoc, .leftcoldiv .btnsubmit {
+.btnhoc, .top .btnhealthfund, .leftcoldiv .btnsubmit {
   text-align: center;
   text-transform: uppercase;
-  display: block;
   margin-top: 20px;
 }
 
@@ -8084,24 +8083,24 @@ body:after {
   clear: both;
 }
 
-/* line 24, ../scss/main.scss */
+/* line 21, ../scss/main.scss */
 .treatments {
   padding: 0;
 }
 
-/* line 25, ../scss/main.scss */
+/* line 22, ../scss/main.scss */
 .treatments li {
   list-style-type: none;
   padding: 5px 0;
 }
 
-/* line 26, ../scss/main.scss */
+/* line 23, ../scss/main.scss */
 .navbar {
   border: 0;
   border-radius: 0;
 }
 
-/* line 27, ../scss/main.scss */
+/* line 24, ../scss/main.scss */
 .top {
   position: relative;
   float: left;
@@ -8111,7 +8110,7 @@ body:after {
   padding-right: 15px;
   padding: 25px 0;
 }
-/* line 30, ../scss/main.scss */
+/* line 27, ../scss/main.scss */
 .top .site-logo {
   position: relative;
   min-height: 1px;
@@ -8119,13 +8118,13 @@ body:after {
   padding-right: 15px;
 }
 @media (min-width: 768px) {
-  /* line 30, ../scss/main.scss */
+  /* line 27, ../scss/main.scss */
   .top .site-logo {
     float: left;
     width: 25%;
   }
 }
-/* line 33, ../scss/main.scss */
+/* line 28, ../scss/main.scss */
 .top .contact {
   position: relative;
   min-height: 1px;
@@ -8133,13 +8132,13 @@ body:after {
   padding-right: 15px;
 }
 @media (min-width: 768px) {
-  /* line 33, ../scss/main.scss */
+  /* line 28, ../scss/main.scss */
   .top .contact {
     float: left;
     width: 75%;
   }
 }
-/* line 36, ../scss/main.scss */
+/* line 29, ../scss/main.scss */
 .top .btnhealthfund {
   color: #fff;
   background-color: #5bc0de;
@@ -8169,12 +8168,12 @@ body:after {
   color: #5bc0de;
   background-color: #fff;
 }
-/* line 40, ../scss/main.scss */
+/* line 32, ../scss/main.scss */
 .top .btnhealthfund:hover {
   text-decoration: none;
 }
 
-/* line 47, ../scss/main.scss */
+/* line 38, ../scss/main.scss */
 .leftcoldiv .btnsubmit {
   color: #fff;
   background-color: #d9534f;
@@ -8183,6 +8182,7 @@ body:after {
   font-size: 14px;
   line-height: 1.42857;
   border-radius: 4px;
+  display: block;
 }
 /* line 11, ../assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .leftcoldiv .btnsubmit:hover, .leftcoldiv .btnsubmit:focus, .leftcoldiv .btnsubmit:active, .leftcoldiv .btnsubmit.active, .open > .leftcoldiv .btnsubmit.dropdown-toggle {
@@ -8205,7 +8205,7 @@ body:after {
   background-color: #fff;
 }
 
-/* line 54, ../scss/main.scss */
+/* line 46, ../scss/main.scss */
 .site-content {
   position: relative;
   float: left;
@@ -8214,7 +8214,7 @@ body:after {
   padding-left: 15px;
   padding-right: 15px;
 }
-/* line 56, ../scss/main.scss */
+/* line 48, ../scss/main.scss */
 .site-content .featured {
   position: relative;
   min-height: 1px;
@@ -8222,13 +8222,13 @@ body:after {
   padding-right: 15px;
 }
 @media (min-width: 768px) {
-  /* line 56, ../scss/main.scss */
+  /* line 48, ../scss/main.scss */
   .site-content .featured {
     float: left;
     width: 25%;
   }
 }
-/* line 59, ../scss/main.scss */
+/* line 51, ../scss/main.scss */
 .site-content .content {
   position: relative;
   min-height: 1px;
@@ -8236,13 +8236,13 @@ body:after {
   padding-right: 15px;
 }
 @media (min-width: 768px) {
-  /* line 59, ../scss/main.scss */
+  /* line 51, ../scss/main.scss */
   .site-content .content {
     float: left;
     width: 75%;
   }
 }
-/* line 61, ../scss/main.scss */
+/* line 53, ../scss/main.scss */
 .site-content .content .service {
   position: relative;
   float: left;
@@ -8251,7 +8251,7 @@ body:after {
   padding-left: 15px;
   padding-right: 15px;
 }
-/* line 65, ../scss/main.scss */
+/* line 55, ../scss/main.scss */
 .site-content .content .about {
   position: relative;
   float: left;
@@ -8260,7 +8260,7 @@ body:after {
   padding-left: 15px;
   padding-right: 15px;
 }
-/* line 66, ../scss/main.scss */
+/* line 56, ../scss/main.scss */
 .site-content .content .hocimg {
   position: relative;
   float: left;
@@ -8270,7 +8270,7 @@ body:after {
   padding-right: 15px;
   padding-left: 0;
 }
-/* line 67, ../scss/main.scss */
+/* line 57, ../scss/main.scss */
 .site-content .content .hocinfo {
   position: relative;
   float: left;
@@ -8280,8 +8280,9 @@ body:after {
   padding-right: 15px;
 }
 
-/* line 71, ../scss/main.scss */
+/* line 61, ../scss/main.scss */
 .site-footer {
+  margin-top: 30px;
   position: relative;
   float: left;
   width: 100%;
@@ -8292,21 +8293,22 @@ body:after {
   background-color: #5bc0de;
   padding: 16px;
 }
-/* line 76, ../scss/main.scss */
+/* line 67, ../scss/main.scss */
 .site-footer .city {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
+  /*	@include make-sm-column-offset(4);*/
 }
 @media (min-width: 768px) {
-  /* line 76, ../scss/main.scss */
+  /* line 67, ../scss/main.scss */
   .site-footer .city {
     float: left;
     width: 50%;
   }
 }
-/* line 80, ../scss/main.scss */
+/* line 68, ../scss/main.scss */
 .site-footer .fairfield {
   position: relative;
   min-height: 1px;
@@ -8314,7 +8316,7 @@ body:after {
   padding-right: 15px;
 }
 @media (min-width: 768px) {
-  /* line 80, ../scss/main.scss */
+  /* line 68, ../scss/main.scss */
   .site-footer .fairfield {
     float: left;
     width: 50%;
