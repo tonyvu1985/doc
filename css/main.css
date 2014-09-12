@@ -8245,19 +8245,42 @@ body:after {
 /* line 61, ../scss/main.scss */
 .site-content .content .service {
   position: relative;
+  float: left;
+  width: 50%;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
 }
-@media (min-width: 768px) {
-  /* line 61, ../scss/main.scss */
-  .site-content .content .service {
-    float: left;
-    width: 50%;
-  }
+/* line 65, ../scss/main.scss */
+.site-content .content .about {
+  position: relative;
+  float: left;
+  width: 100%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+/* line 66, ../scss/main.scss */
+.site-content .content .hocimg {
+  position: relative;
+  float: left;
+  width: 16.66667%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-left: 0;
+}
+/* line 67, ../scss/main.scss */
+.site-content .content .hocinfo {
+  position: relative;
+  float: left;
+  width: 83.33333%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
-/* line 67, ../scss/main.scss */
+/* line 71, ../scss/main.scss */
 .site-footer {
   position: relative;
   float: left;
@@ -8269,7 +8292,7 @@ body:after {
   background-color: #5bc0de;
   padding: 16px;
 }
-/* line 72, ../scss/main.scss */
+/* line 76, ../scss/main.scss */
 .site-footer .city {
   position: relative;
   min-height: 1px;
@@ -8277,13 +8300,13 @@ body:after {
   padding-right: 15px;
 }
 @media (min-width: 768px) {
-  /* line 72, ../scss/main.scss */
+  /* line 76, ../scss/main.scss */
   .site-footer .city {
     float: left;
     width: 50%;
   }
 }
-/* line 76, ../scss/main.scss */
+/* line 80, ../scss/main.scss */
 .site-footer .fairfield {
   position: relative;
   min-height: 1px;
@@ -8291,7 +8314,7 @@ body:after {
   padding-right: 15px;
 }
 @media (min-width: 768px) {
-  /* line 76, ../scss/main.scss */
+  /* line 80, ../scss/main.scss */
   .site-footer .fairfield {
     float: left;
     width: 50%;
