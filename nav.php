@@ -1,6 +1,8 @@
 <link rel="stylesheet" href="css/main.css">
 <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script src="assets/javascripts/bootstrap.js"></script>
+<script src="angularjs/angular.min.js"></script>
+<script src="angularjs/hoc.js"></script>
 
 <div class="navbar navbar-default" role="navigation"><!-- Nav bar -->
 	<div class="container-fluid">
