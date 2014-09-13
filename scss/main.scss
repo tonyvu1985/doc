@@ -1,6 +1,5 @@
 @import "compass";
 @import "bootstrap";
-
 .btnhoc{text-align:center; text-transform:uppercase; margin-top:20px;}
 h1{color:#5bc0de; font-weight:bold}
 h2, h3{color:#5bc0de}
@@ -20,12 +19,13 @@ body{
 }
 .wrapper{@include make-row();background:#fff;}
 .treatments {padding:0}
-.treatments li{list-style-type:none; padding: 5px 0}
+.treatments li{list-style-type:none;}
 .navbar{border:0; border-radius:0}
-.navbar-default{background-color:#31b0d5;}
-.navbar-default .navbar-nav li a{color:#fff}
-.navbar-default .navbar-nav li a:hover{text-decoration:none; background-color:#428bca}
+.navbar-default{background-color:#5bc0de;}
+.navbar-default .navbar-nav > li > a{color:#fff}
+.navbar-default .navbar-nav > li > a:hover{text-decoration:none; background-color:#28a9f0}
 .navbar-default .navbar-brand{background-color:#c9302c; color:#fff;}
+.carousel-caption{background:#000; opacity:0.9; filter: alpha(opacity=90);}
 .top{
 	@include make-xs-column(12);
 	padding: 25px 0;
@@ -41,9 +41,9 @@ body{
 .widget{
 	h4{color:#fff; background:#d9534f; padding: 10px 3px; text-transform:uppercase;}
 	li{background-color:$brand-info; margin:2px 0;}
-	li a{color:#fff; padding:2px; display:block;}
-	li a{text-decoration:none;}
-	li:hover{background-color:#428bca}
+	li a{color:#fff; padding:5px; display:block;
+	&:hover{text-decoration:none; background-color:#28a9f0;}
+	}
 }
 .leftcoldiv{
 	.btnsubmit{

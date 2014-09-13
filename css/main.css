@@ -8024,25 +8024,25 @@ button.close {
     display: none !important;
   }
 }
-/* line 4, ../scss/main.scss */
+/* line 3, ../scss/main.scss */
 .btnhoc, .top .btnhealthfund, .leftcoldiv .btnsubmit {
   text-align: center;
   text-transform: uppercase;
   margin-top: 20px;
 }
 
-/* line 5, ../scss/main.scss */
+/* line 4, ../scss/main.scss */
 h1 {
   color: #5bc0de;
   font-weight: bold;
 }
 
-/* line 6, ../scss/main.scss */
+/* line 5, ../scss/main.scss */
 h2, h3 {
   color: #5bc0de;
 }
 
-/* line 7, ../scss/main.scss */
+/* line 6, ../scss/main.scss */
 body {
   margin-right: auto;
   margin-left: auto;
@@ -8060,25 +8060,25 @@ body:after {
   clear: both;
 }
 @media (min-width: 768px) {
-  /* line 7, ../scss/main.scss */
+  /* line 6, ../scss/main.scss */
   body {
     width: 750px;
   }
 }
 @media (min-width: 992px) {
-  /* line 7, ../scss/main.scss */
+  /* line 6, ../scss/main.scss */
   body {
     width: 970px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 7, ../scss/main.scss */
+  /* line 6, ../scss/main.scss */
   body {
     width: 1170px;
   }
 }
 
-/* line 21, ../scss/main.scss */
+/* line 20, ../scss/main.scss */
 .wrapper {
   margin-left: -15px;
   margin-right: -15px;
@@ -8094,43 +8094,49 @@ body:after {
   clear: both;
 }
 
-/* line 22, ../scss/main.scss */
+/* line 21, ../scss/main.scss */
 .treatments {
   padding: 0;
 }
 
-/* line 23, ../scss/main.scss */
+/* line 22, ../scss/main.scss */
 .treatments li {
   list-style-type: none;
-  padding: 5px 0;
 }
 
-/* line 24, ../scss/main.scss */
+/* line 23, ../scss/main.scss */
 .navbar {
   border: 0;
   border-radius: 0;
 }
 
-/* line 25, ../scss/main.scss */
+/* line 24, ../scss/main.scss */
 .navbar-default {
-  background-color: #31b0d5;
+  background-color: #5bc0de;
+}
+
+/* line 25, ../scss/main.scss */
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
 }
 
 /* line 26, ../scss/main.scss */
-.navbar-default .navbar-nav li a {
-  color: #fff;
+.navbar-default .navbar-nav > li > a:hover {
+  text-decoration: none;
+  background-color: #28a9f0;
 }
 
 /* line 27, ../scss/main.scss */
-.navbar-default .navbar-nav li a:hover {
-  text-decoration: none;
-  background-color: #428bca;
-}
-
-/* line 28, ../scss/main.scss */
 .navbar-default .navbar-brand {
   background-color: #c9302c;
   color: #fff;
+}
+
+/* line 28, ../scss/main.scss */
+.carousel-caption {
+  background: #000;
+  opacity: 0.9;
+  filter: alpha(opacity=90);
 }
 
 /* line 29, ../scss/main.scss */
@@ -8221,16 +8227,13 @@ body:after {
 /* line 44, ../scss/main.scss */
 .widget li a {
   color: #fff;
-  padding: 2px;
+  padding: 5px;
   display: block;
 }
 /* line 45, ../scss/main.scss */
-.widget li a {
+.widget li a:hover {
   text-decoration: none;
-}
-/* line 46, ../scss/main.scss */
-.widget li:hover {
-  background-color: #428bca;
+  background-color: #28a9f0;
 }
 
 /* line 49, ../scss/main.scss */
