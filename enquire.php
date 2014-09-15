@@ -18,6 +18,6 @@
 				<option value="Sydney">Sydney</option>
 				<option value="Fairfield">Fairfield</option>
 			</select>
-			<p><button class="btnsubmit" ng-disable="signup_form.$invalid">Submit</button></p>
+			<p><button type="submit" class="btnsubmit" ng-disable="frmenquire.$invalid">Submit</button></p>
 		</form>
 </div>
