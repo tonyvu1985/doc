@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <title>doc website</title>
 </head>
-<body>
+<body ng-app="validationApp" ng-controller="mainController">
 <div class="wrapper">
 	<?php include_once('nav.php'); ?>
 
