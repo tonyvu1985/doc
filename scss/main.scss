@@ -1,5 +1,11 @@
 @import "compass";
 @import "bootstrap";
+
+$lightblue1: #28a9f0;
+$lightblue2: #1ec7f5;
+$darkblue: #283fad;
+$red: #bd363f;
+
 .help-block{color:#ff0000}
 textarea{resize: none}
 
@@ -24,10 +30,10 @@ body{
 .treatments {padding:0}
 .treatments li{list-style-type:none;}
 .navbar{border:0; border-radius:0}
-.navbar-default{background-color:#5bc0de;}
+.navbar-default{background-color:$lightblue2;}
 .navbar-default .navbar-nav > li > a{color:#fff}
-.navbar-default .navbar-nav > li > a:hover{text-decoration:none; background-color:#28a9f0}
-.navbar-default .navbar-brand{background-color:#c9302c; color:#fff;}
+.navbar-default .navbar-nav > li > a:hover{text-decoration:none; background-color:$lightblue1;}
+.navbar-default .navbar-brand{color:#fff; font-size:15px}
 .carousel-caption{background:#000; opacity:0.9; filter: alpha(opacity=90);}
 .top{
 	@include make-xs-column(12);
@@ -42,10 +48,10 @@ body{
 	}
 }
 .widget{
-	h4{color:#fff; background:#d9534f; padding: 10px 3px; text-transform:uppercase;}
-	li{background-color:$brand-info; margin:2px 0;}
+	h4{color:#fff; background:$red; padding: 10px 3px; text-transform:uppercase;}
+	li{background-color:$lightblue2 ; margin:2px 0;}
 	li a{color:#fff; padding:5px; display:block;
-	&:hover{text-decoration:none; background-color:#28a9f0;}
+	&:hover{text-decoration:none; background-color:$lightblue1;}
 	}
 }
 .leftcoldiv{
@@ -72,11 +78,19 @@ body{
 	}
 }
 
+.venue{
+	@include make-row();
+	padding-bottom:20px;
+	div{
+		@include make-xs-column(6);
+	}
+}
+
 .site-footer{
 	margin-top:30px;
 	@include make-xs-column(12);
 	color:white;
-	background-color: $brand-info;
+	background: $lightblue2 url('../images/giant-panda.png') no-repeat top left;
 	padding: $padding-large-horizontal;
 	.city{@include make-sm-column(6);/*	@include make-sm-column-offset(4);*/}
 	.fairfield{@include make-sm-column(6);}

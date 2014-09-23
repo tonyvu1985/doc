@@ -8,8 +8,14 @@
 		<p><input type="text" placeholder="Email" name="from" class="form-control"></p>
 		<p><input type="text" name="subject" placeholder="Subject" class="form-control"></p>
 		<p><textarea placeholder="Message" name="message" class="form-control"></textarea></p>
-		<p><input type="radio" name="place" value="Sydney" checked>Sydney 
-		<input type="radio" name="place" value="Fairfield">Fairfield</p>
+		<div class="venue">
+			<div>
+				<input type="radio" name="place" value="Sydney" checked> Sydney 
+			</div>
+			<div>
+				<input type="radio" name="place" value="Fairfield"> Fairfield
+			</div>
+		</div>
 		<button type="submit" name="submit" class="btn btn-danger">Send</button>
 		</form>
 	<?php 
