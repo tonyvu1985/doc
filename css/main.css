@@ -8157,7 +8157,7 @@ body:after {
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
-  padding: 25px 0;
+  padding: 0px 0 20px 0;
 }
 /* line 41, ../scss/main.scss */
 .top .site-logo {
@@ -8223,30 +8223,23 @@ body:after {
 }
 
 /* line 51, ../scss/main.scss */
-.widget h4 {
-  color: #fff;
-  background: #bd363f;
-  padding: 10px 3px;
-  text-transform: uppercase;
-}
-/* line 52, ../scss/main.scss */
 .widget li {
   background-color: #1ec7f5;
   margin: 2px 0;
 }
-/* line 53, ../scss/main.scss */
+/* line 52, ../scss/main.scss */
 .widget li a {
   color: #fff;
   padding: 5px;
   display: block;
 }
-/* line 54, ../scss/main.scss */
+/* line 53, ../scss/main.scss */
 .widget li a:hover {
   text-decoration: none;
   background-color: #28a9f0;
 }
 
-/* line 58, ../scss/main.scss */
+/* line 57, ../scss/main.scss */
 .leftcoldiv .btnsubmit {
   color: #fff;
   background-color: #d9534f;
@@ -8277,8 +8270,16 @@ body:after {
   color: #d9534f;
   background-color: #fff;
 }
+/* line 63, ../scss/main.scss */
+.leftcoldiv h2 {
+  margin-top: 0;
+}
+/* line 64, ../scss/main.scss */
+.leftcoldiv .sucess-message {
+  color: #bd363f;
+}
 
-/* line 66, ../scss/main.scss */
+/* line 67, ../scss/main.scss */
 .site-content {
   position: relative;
   float: left;
@@ -8287,44 +8288,59 @@ body:after {
   padding-left: 15px;
   padding-right: 15px;
 }
-/* line 68, ../scss/main.scss */
+/* line 69, ../scss/main.scss */
 .site-content .featured {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
 }
+/* line 70, ../scss/main.scss */
+.site-content .featured h4 {
+  color: #fff;
+  background: #bd363f;
+  padding: 10px 3px;
+  text-transform: uppercase;
+}
 @media (min-width: 768px) {
-  /* line 68, ../scss/main.scss */
+  /* line 69, ../scss/main.scss */
   .site-content .featured {
     float: left;
     width: 25%;
   }
 }
-/* line 71, ../scss/main.scss */
+/* line 73, ../scss/main.scss */
 .site-content .content {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background: url("../images/giant-panda.png") no-repeat 100% 100%;
+  padding-bottom: 150px;
+  display: inline-block;
+}
+@media (min-width: 768px) {
+  /* line 73, ../scss/main.scss */
+  .site-content .content {
+    float: left;
+    width: 75%;
+  }
+}
+/* line 75, ../scss/main.scss */
+.site-content .content .service {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
 }
 @media (min-width: 768px) {
-  /* line 71, ../scss/main.scss */
-  .site-content .content {
+  /* line 75, ../scss/main.scss */
+  .site-content .content .service {
     float: left;
-    width: 75%;
+    width: 50%;
   }
 }
-/* line 73, ../scss/main.scss */
-.site-content .content .service {
-  position: relative;
-  float: left;
-  width: 50%;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-/* line 75, ../scss/main.scss */
+/* line 77, ../scss/main.scss */
 .site-content .content .about {
   position: relative;
   float: left;
@@ -8333,7 +8349,7 @@ body:after {
   padding-left: 15px;
   padding-right: 15px;
 }
-/* line 76, ../scss/main.scss */
+/* line 78, ../scss/main.scss */
 .site-content .content .hocimg {
   position: relative;
   float: left;
@@ -8343,7 +8359,7 @@ body:after {
   padding-right: 15px;
   padding-left: 0;
 }
-/* line 77, ../scss/main.scss */
+/* line 79, ../scss/main.scss */
 .site-content .content .hocinfo {
   position: relative;
   float: left;
@@ -8353,7 +8369,7 @@ body:after {
   padding-right: 15px;
 }
 
-/* line 81, ../scss/main.scss */
+/* line 86, ../scss/main.scss */
 .venue {
   margin-left: -15px;
   margin-right: -15px;
@@ -8368,7 +8384,7 @@ body:after {
 .venue:after {
   clear: both;
 }
-/* line 84, ../scss/main.scss */
+/* line 89, ../scss/main.scss */
 .venue div {
   position: relative;
   float: left;
@@ -8378,9 +8394,8 @@ body:after {
   padding-right: 15px;
 }
 
-/* line 89, ../scss/main.scss */
+/* line 94, ../scss/main.scss */
 .site-footer {
-  margin-top: 30px;
   position: relative;
   float: left;
   width: 100%;
@@ -8388,10 +8403,10 @@ body:after {
   padding-left: 15px;
   padding-right: 15px;
   color: white;
-  background: #1ec7f5 url("../images/giant-panda.png") no-repeat top left;
+  background: #1ec7f5;
   padding: 16px;
 }
-/* line 95, ../scss/main.scss */
+/* line 99, ../scss/main.scss */
 .site-footer .city {
   position: relative;
   min-height: 1px;
@@ -8400,13 +8415,13 @@ body:after {
   /*	@include make-sm-column-offset(4);*/
 }
 @media (min-width: 768px) {
-  /* line 95, ../scss/main.scss */
+  /* line 99, ../scss/main.scss */
   .site-footer .city {
     float: left;
     width: 50%;
   }
 }
-/* line 96, ../scss/main.scss */
+/* line 100, ../scss/main.scss */
 .site-footer .fairfield {
   position: relative;
   min-height: 1px;
@@ -8414,7 +8429,7 @@ body:after {
   padding-right: 15px;
 }
 @media (min-width: 768px) {
-  /* line 96, ../scss/main.scss */
+  /* line 100, ../scss/main.scss */
   .site-footer .fairfield {
     float: left;
     width: 50%;

@@ -5,7 +5,7 @@ $lightblue1: #28a9f0;
 $lightblue2: #1ec7f5;
 $darkblue: #283fad;
 $red: #bd363f;
-
+$white: #fff;
 .help-block{color:#ff0000}
 textarea{resize: none}
 
@@ -26,55 +26,60 @@ body{
 	}
 	background:url('../images/seamless_paper_texture.png')repeat top left;
 }
-.wrapper{@include make-row();background:#fff;}
+.wrapper{@include make-row();background:$white;}
 .treatments {padding:0}
 .treatments li{list-style-type:none;}
 .navbar{border:0; border-radius:0}
 .navbar-default{background-color:$lightblue2;}
-.navbar-default .navbar-nav > li > a{color:#fff}
+.navbar-default .navbar-nav > li > a{color:$white}
 .navbar-default .navbar-nav > li > a:hover{text-decoration:none; background-color:$lightblue1;}
-.navbar-default .navbar-brand{color:#fff; font-size:15px}
+.navbar-default .navbar-brand{color:$white; font-size:15px}
 .carousel-caption{background:#000; opacity:0.9; filter: alpha(opacity=90);}
 .top{
 	@include make-xs-column(12);
-	padding: 25px 0;
+	padding: 0px 0 20px 0;
 	.site-logo{@include make-sm-column(3);}
 	.contact{@include make-sm-column(9);}
 	.btnhealthfund{
-		@include button-variant(#fff, $brand-info, $btn-info-color);
+		@include button-variant($white, $brand-info, $btn-info-color);
 		@include button-size($padding-base-vertical, $padding-base-horizontal, $font-size-base, $line-height-base, $border-radius-base); 
 		&:hover{text-decoration:none;}
 		@extend .btnhoc;
 	}
 }
 .widget{
-	h4{color:#fff; background:$red; padding: 10px 3px; text-transform:uppercase;}
 	li{background-color:$lightblue2 ; margin:2px 0;}
-	li a{color:#fff; padding:5px; display:block;
+	li a{color:$white; padding:5px; display:block;
 	&:hover{text-decoration:none; background-color:$lightblue1;}
 	}
 }
 .leftcoldiv{
 	.btnsubmit{
-		@include button-variant(#fff, $brand-danger, $btn-danger-color);
+		@include button-variant($white, $brand-danger, $btn-danger-color);
 		@include button-size($padding-base-vertical, $padding-base-horizontal, $font-size-base, $line-height-base, $border-radius-base);
 		@extend .btnhoc;
 		display:block;
 	}
+	h2{margin-top:0}
+	.sucess-message{color:$red;}
 }
 
 .site-content{
 	@include make-xs-column(12);
 	.featured{
+		h4{color:$white; background:$red; padding: 10px 3px; text-transform:uppercase;}
 		@include make-sm-column(3);
 	}
 	.content{
 		@include make-sm-column(9);
-		.service{@include make-xs-column(6);}
+		.service{@include make-sm-column(6);}
 		// about page
 		.about{@include make-xs-column(12);}
 		.hocimg{@include make-xs-column(2); padding-left:0}
 		.hocinfo{@include make-xs-column(10);}
+		background: url('../images/giant-panda.png') no-repeat 100% 100%;
+		padding-bottom:150px;
+		display:inline-block;
 	}
 }
 
@@ -87,10 +92,9 @@ body{
 }
 
 .site-footer{
-	margin-top:30px;
 	@include make-xs-column(12);
 	color:white;
-	background: $lightblue2 url('../images/giant-panda.png') no-repeat top left;
+	background: $lightblue2;
 	padding: $padding-large-horizontal;
 	.city{@include make-sm-column(6);/*	@include make-sm-column-offset(4);*/}
 	.fairfield{@include make-sm-column(6);}

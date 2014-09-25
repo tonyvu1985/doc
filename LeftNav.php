@@ -10,5 +10,12 @@
 			<li><a href="article.php">Media Articles</a></li>
 		</ul>
 	</section>
-</div>
 
+	<!-- Subscribe letter -->
+	<div class="subscribe">
+		<h4>Subscribe Newsletter</h4>
+		<p><input type="text" class="name form-control" placeholder="Your name"/></p>
+		<p><input type="text" class="email form-control" placeholder="Email"/></p>
+		<p><a href="" alt="Subscribe Newsletter" class="btnsubscribe btn btn-default" >Subscribe Newsletter</a></p>	
+	</div>
+</div>
