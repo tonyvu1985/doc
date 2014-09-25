@@ -18,7 +18,7 @@
 				<input type="radio" name="place" value="Fairfield"> Fairfield
 			</div>
 		</div>
-		<button type="submit" name="submit" class="btnsubmit">Send</button>
+		<button type="submit" name="submit" class="btn btn-default">Send Request</button>
 		</form>
 	<?php 
 	} else {    // the user has submitted the form
