@@ -43,3 +43,24 @@ validationApp.controller('mainController', function($scope, $http) {
 	};
 
 });
+
+
+function insert_subscriber(){
+	jQuery("#btnsubscribe").click(function(e){
+		e.preventDefault();
+		jQuery.ajax({
+			type: "POST",
+			url: jQuery('#subscribe').attr('action'),
+			data: jQuery('#subscribe').serializeArray(),
+			beforeSend: function(x) {
+				jQuery(".glyphicon-refresh").show();
+			},
+			success: function(data) {
+				jQuery(".glyphicon-refresh").hide();
+				jQuery(".txtsuccess").show();
+			},
+		});
+
+	});
+
+}

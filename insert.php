@@ -1,32 +1,21 @@
 <?php
-
 // get name and email
-
 $name = $_POST['name'];
 $email= $_POST['email'];
 
 // set up connection
-$con = mysql_connect('localhost','root','human01');
+$con = mysqli_connect('localhost','root','human01','hoc');
 
-if (!$con) {
-  die('Could not connect: ' . mysql_error($con));
+if (mysqli_connect_errno()) {
+  echo 'Could not connect: ' . mysqli_connect_error();
 }
+$sql =  "INSERT INTO Newsletter(Name, Email)VALUES('" . $name . "','" . $email . "')";
 
-// connect to database
-mysql_select_db("hoc",$con);
+//execute query
+mysqli_query($con, $sql); 
 
-$sql = "INSERT INTO Newsletter(Name, Email) VALUES(" . $name . ',' . $email . ")"; 
-$result = mysql_query($sql, $cxn);
+//close connection
+mysqli_close($con);
 
-mysql_close($con);
-
-// setup our response "object"
-$resp = new Class();
-$resp->success = false;
-if($result) {
-    $resp->success = true;
-}
-
-print json_encode($resp);
-
+//echo 'success';
 ?>

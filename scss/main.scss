@@ -8,7 +8,8 @@ $red: #bd363f;
 $white: #fff;
 .help-block{color:#ff0000}
 textarea{resize: none}
-
+.txtsuccess{color:$red; display:none}
+.glyphicon-refresh{display:none}
 .btnhoc{text-align:center; text-transform:uppercase; margin-top:20px;}
 h1{color:#5bc0de; font-weight:bold}
 h2, h3{color:#5bc0de}
@@ -49,7 +50,7 @@ body{
 }
 .widget{
 	li{background-color:$lightblue2 ; margin:2px 0;}
-	li a{color:$white; padding:5px; display:block;
+	li a{color:$white; padding:5px 10px; display:block;
 	&:hover{text-decoration:none; background-color:$lightblue1;}
 	}
 }
@@ -67,7 +68,7 @@ body{
 .site-content{
 	@include make-xs-column(12);
 	.featured{
-		h4{color:$white; background:$red; padding: 10px 3px; text-transform:uppercase;}
+		h4{color:$white; background:$red; padding: 8px 10px; text-transform:uppercase; font-size:14px}
 		@include make-sm-column(3);
 	}
 	.content{
@@ -98,4 +99,39 @@ body{
 	padding: $padding-large-horizontal;
 	.city{@include make-sm-column(6);/*	@include make-sm-column-offset(4);*/}
 	.fairfield{@include make-sm-column(6);}
+}
+
+// spin 
+.spin {
+  -webkit-animation: spin 2s infinite linear;
+  -moz-animation: spin 2s infinite linear;
+  -o-animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
+}
+
+@-moz-keyframes spin {
+  from {
+    -moz-transform: rotate(0deg);
+  }
+  to {
+    -moz-transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }

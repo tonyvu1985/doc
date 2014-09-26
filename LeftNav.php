@@ -15,36 +15,15 @@
 	<div class="subscribe">
 		<h4>Subscribe Newsletter</h4>
 		<form id="subscribe" method="post" action="insert.php">
-			<p><input type="text" class="name form-control" placeholder="Your name"/></p>
-			<p><input type="text" class="email form-control" placeholder="Email"/></p>
-			<p><a alt="Subscribe Newsletter" class="btnsubscribe btn btn-default" >Subscribe Newsletter</a></p>	
+			<p><input type="text" name="name" class="form-control" placeholder="Your name"/></p>
+			<p><input type="text" name="email" class="form-control" placeholder="Email"/></p>
+			<p><a id="btnsubscribe" class="btn btn-default" >Subscribe Newsletter</a></p>	
+			<p class="glyphicon glyphicon-refresh spin"></p>
+			<p class="txtsuccess">Thank you for subscribe</p>	
 		</form>
 	</div>
 </div>
 
 <script type="text/javascript">
-	jQuery(".btnsubscribe").click(function(e){
-		e.preventDefault();
-		// fetch where we want to submit the form to
-		var url = jQuery('#subscribe').attr('action');
-		alert(url);
-		// fetch the data for the form
-		var data = jQuery('#subscribe').serializeArray();
-
-		// setup the ajax request
-		jQuery.ajax({
-		    url: url,
-		    data: data,
-		    dataType: 'json',
-		    success: function() {
-			if(resp.success) {
-			    alert('form has been posted successfully');
-			}
-		    }
-		});
-
-		// return false so the form does not actually
-		// submit to the page
-		return false;
-	});
+	insert_subscriber();
 </script>
