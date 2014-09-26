@@ -8035,7 +8035,7 @@ textarea {
 }
 
 /* line 11, ../scss/main.scss */
-.txtsuccess {
+.txtsuccess, .sucess-message {
   color: #bd363f;
   display: none;
 }

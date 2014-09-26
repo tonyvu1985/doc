@@ -49,3 +49,23 @@ function insert_subscriber(){
 	});
 
 }
+
+function send_request(){
+	jQuery("#btnsendemail").click(function(e){
+		e.preventDefault();
+		jQuery.ajax({
+			type: "POST",
+			url: jQuery('#sendemail').attr('action'),
+			data: jQuery('#sendemail').serializeArray(),
+			beforeSend: function(x) {
+				jQuery(".glyphicon-refresh").show();
+			},
+			success: function(data) {
+				jQuery(".glyphicon-refresh").hide();
+				jQuery(".sucess-message").show();
+			},
+		});
+
+	});
+
+}
