@@ -15,16 +15,16 @@
 	<div class="subscribe">
 		<h4>Subscribe Newsletter</h4>
 		<form id="subscribe" name="frmsubscribe" method="post" action="insert.php" novalidate ng-submit="signupForm()">
-			<p><input type="text" name="name" class="form-control" placeholder="Your name" ng-model="name" ng-minlength="3" ng-maxlength="10" required/></p>
+			<p><input type="text" name="name" class="form-control" placeholder="Your name" ng-model="name" ng-minlength="3" ng-maxlength="10" required ng-focus /></p>
 
-			<div class="error" ng-show="frmsubscribe.name.$dirty && frmsubscribe.name.$invalid">
+			<div class="error-container" ng-show="frmsubscribe.name.$dirty && frmsubscribe.name.$invalid && !frmsubscribe.name.$focused">
 				<small ng-show="frmsubscribe.name.$error.minlength" class="help-block">Name is too short.</small>
 				<small ng-show="frmsubscribe.name.$error.maxlength" class="help-block">Name is too long.</small>
 				<small ng-show="frmsubscribe.name.$error.required" class="help-block">Name is required.</small>
 			</div>
 
-			<p><input type="email" name="email" class="form-control" placeholder="Email" ng-model="email" ng-minlength="3" ng-maxlength="10" required/></p>
-			<div ng-show="frmsubscribe.email.$invalid && frmsubscribe.email.$dirty" class="help-block">
+			<p><input type="email" name="email" class="form-control" placeholder="Email" ng-model="email" ng-minlength="3" ng-maxlength="10" required ng-focus/></p>
+			<div class="error-container" ng-show="frmsubscribe.email.$invalid && frmsubscribe.email.$dirty && !frmsubscribe.email.$focused">
 				<small ng-show="frmsubscribe.email.$error.minlength" class="help-block">Email is too short.</small>
 				<small ng-show="frmsubscribe.email.$error.maxlength" class="help-block">Email is too long.</small>
 				<small ng-show="frmsubscribe.email.$error.required" class="help-block">Email is required.</small>
