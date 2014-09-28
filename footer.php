@@ -9,3 +9,5 @@
 		<p>Unit 95, Level 2, 515 Kent st, Sydney<br/>2 mins walk from Townhall</p>
 	</div>
 </footer>
+</div>
+</body>

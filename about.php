@@ -4,8 +4,6 @@
         <meta charset="UTF-8">
         <title>acupuncture</title>
 </head>
-<body ng-app="validationApp" ng-controller="mainController">
-<div class="wrapper">
 	<?php include_once('nav.php'); ?>
 
         <div class="site-content"> <!-- header -->
@@ -61,6 +59,4 @@
 
 	<!-- Footer -->
 	<?php include_once('footer.php'); ?>
-</div>
-</body>
 </html>

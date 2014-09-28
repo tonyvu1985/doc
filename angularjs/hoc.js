@@ -11,6 +11,10 @@ $scope.submitted = false; //used so that form errors are shown only after the fo
 }*/
 }]);
 
+// get height
+//angular.module('',[])
+
+
 // show the message after blur
 validationApp.directive('ngFocus', [function(){
 	var FOCUS_CLASS = 'ng-focused';
