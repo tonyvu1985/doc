@@ -14,11 +14,11 @@
 	      <span class="icon-bar"></span>
 	      <span class="icon-bar"></span>
 	    </button>
-	    <a class="navbar-brand" href="/hoc">Home</a>
+	    <a class="navbar-brand" href="/">Home</a>
 	  </div>        
 	  <div class="navbar-collapse collapse">
 	    <ul class="nav navbar-nav">
-	      <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">About <span class="caret"></span></a>
+	      <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">About<span class="caret"></span></a>
 			<ul class="dropdown-menu" role="menu">
 			  <li><a href="about.php">About Hoc</a></li>
 			  <li><a href="article.php">Media aritcles</a></li>
@@ -32,7 +32,7 @@
 		  <li><a href="cupping.php">Cupping</a></li>
 		  <li><a href="moxibustion.php">Moxibustion</a></li>
 		  <li><a href="tuina.php">Tuina</a></li>
-		<li><a href="">Health Funds</a></li>
+		<li><a href="fund.php">Health Funds</a></li>
 		<li><a href="article.php">Media Articles</a></li>
 		</ul>   
 	      </li>
@@ -47,7 +47,7 @@
 
 <div class="top">
 	<div class="site-logo">
-		<a><img src="images/new-china-acupuncture-logo.png" alt="new china acupuncture logo" /></a>
+		<a href="/"><img src="images/new-china-acupuncture-logo.png" alt="new china acupuncture logo" /></a>
 	</div>
 
 	<div class="contact text-right">

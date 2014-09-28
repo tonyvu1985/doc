@@ -6,10 +6,13 @@
 			<li><a href="cupping.php">Cupping</a></li>
 			<li><a href="moxibustion.php">Moxibustion</a></li>
 			<li><a href="tuina.php">Tuina</a></li>
-			<li><a href="">Health Funds</a></li>
+			<li><a href="fund.php">Health Funds</a></li>
 			<li><a href="article.php">Media Articles</a></li>
 		</ul>
 	</section>
+
+	<!-- dynamic image -->
+	<?php  include_once('info.php'); ?>
 
 	<!-- Subscribe letter -->
 	<div class="subscribe">
@@ -37,8 +40,6 @@
 		</form>
 	</div>
 
-	<!-- dynamic image -->
-	<?php  include_once('info.php'); ?>
 </div>
 
 <script type="text/javascript">
