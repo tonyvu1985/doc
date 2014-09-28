@@ -32,6 +32,8 @@
 		  <li><a href="cupping.php">Cupping</a></li>
 		  <li><a href="moxibustion.php">Moxibustion</a></li>
 		  <li><a href="tuina.php">Tuina</a></li>
+		<li><a href="">Health Funds</a></li>
+		<li><a href="article.php">Media Articles</a></li>
 		</ul>   
 	      </li>
 	      <li><a href="condition.php">Conditions</a></li>

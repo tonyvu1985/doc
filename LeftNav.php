@@ -2,7 +2,7 @@
 	<section class="widget">
 		<h4>Treatments</h4>
 		<ul class="treatments">
-			<li><a href="">Diet & Lifestyle</a></li>
+			<li><a href="diet.php">Diet & Lifestyle</a></li>
 			<li><a href="cupping.php">Cupping</a></li>
 			<li><a href="moxibustion.php">Moxibustion</a></li>
 			<li><a href="tuina.php">Tuina</a></li>
@@ -36,6 +36,9 @@
 			<p class="txtsuccess">Thank you for subscribe</p>	
 		</form>
 	</div>
+
+	<!-- dynamic image -->
+	<?php  include_once('info.php'); ?>
 </div>
 
 <script type="text/javascript">

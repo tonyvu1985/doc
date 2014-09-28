@@ -8156,8 +8156,8 @@ body:after {
 /* line 38, ../scss/main.scss */
 .carousel-caption {
   background: #000;
-  opacity: 0.9;
-  filter: alpha(opacity=90);
+  opacity: 0.8;
+  filter: alpha(opacity=80);
 }
 
 /* line 39, ../scss/main.scss */

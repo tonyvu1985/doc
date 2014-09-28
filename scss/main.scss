@@ -35,7 +35,7 @@ body{
 .navbar-default .navbar-nav > li > a{color:$white}
 .navbar-default .navbar-nav > li > a:hover{text-decoration:none; background-color:$lightblue1;}
 .navbar-default .navbar-brand{color:$white; font-size:15px}
-.carousel-caption{background:#000; opacity:0.9; filter: alpha(opacity=90);}
+.carousel-caption{background:#000; opacity:0.8; filter: alpha(opacity=80);}
 .top{
 	@include make-xs-column(12);
 	padding: 0px 0 20px 0;

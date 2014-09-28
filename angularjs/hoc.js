@@ -2,13 +2,13 @@ var validationApp = angular.module('validationApp', []);
 // create angular controller
 validationApp.controller('mainController', ['$scope', function($scope) {
 $scope.submitted = false; //used so that form errors are shown only after the form has been submitted
-$scope.signupForm = function() {
+/*$scope.signupForm = function() {
 	if ($scope.frmsubscribe.$valid) {
 		// Submit as normal
 	} else {
 		$scope.frmsubscribe.submitted = true;
 	}
-}
+}*/
 }]);
 
 // show the message after blur

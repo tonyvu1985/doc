@@ -1,7 +1,7 @@
 <div class="leftcoldiv">
 	<h2>Enquiry Form</h2>
 	<form method="post" name="frmsendemail" id="sendemail" action="send-email.php" novalidate ng-submit="sendemailForm()">
-	<p><input type="text" placeholder="Name" name="requestor" class="form-control" ng-model="requestor" ng-minlength="3" ng-maxlength="30" required ng-focus /></p>
+	<p><input type="text" placeholder="Name" name="requestor" class="form-control" ng-model="requestor" ng-minlength="3" ng-maxlength="30" required /></p>
 	<div class="error-container" ng-show="frmsendemail.requestor.$dirty && frmsendemail.requestor.$invalid && !frmsendemail.requestor.$focused">	
 		<small ng-show="frmsendemail.requestor.$error.minlength" class="help-block">Name is too short.</small>
 		<small ng-show="frmsendemail.requestor.$error.maxlength" class="help-block">Name is too long.</small>
