@@ -1,6 +1,7 @@
 <div class="dynamic-image">
 <?php
-	$arr_image = array("cupping" => "cupping", "diet" => "diel", "fund" => "Full Fellow Member of", "moxibustion" => "Moxibustion", "tuina" => "Tuina", "media" => "Hoc Ku Huynh");
+	$arr_image = array("cupping" => "cupping", "diet" => "diel", "fund" => "Full Fellow Member of", "moxibustion" => "Moxibustion", "tuina" => "Tuina", "media" => "Hoc Ku Huynh", "article" => "Hoc Ku Huynh  
+", "condition" => "Acupuncture", "faq" => "Hoc Ku Huynh OAM");
 	$sub_url = $_SERVER['REQUEST_URI'];
 	$image = substr($sub_url, '1', $sub_url.length - 4);
 	if($image ==""){

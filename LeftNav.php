@@ -16,7 +16,7 @@
 
 	<!-- Subscribe letter -->
 	<div class="subscribe">
-		<h4>Subscribe Newsletter</h4>
+		<h4>Subscribe to Newsletter</h4>
 		<form id="subscribe" name="frmsubscribe" method="post" action="insert.php" novalidate ng-submit="signupForm()">
 			<p><input type="text" name="name" class="form-control" placeholder="Your name" ng-model="name" ng-minlength="3" ng-maxlength="30" required ng-focus /></p>
 

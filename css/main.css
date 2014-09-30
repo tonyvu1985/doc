@@ -8053,17 +8053,34 @@ textarea {
 }
 
 /* line 14, ../scss/main.scss */
+.txtlogo {
+  font-size: 35px;
+  padding-left: 0;
+  margin-top: 15px;
+}
+/* line 16, ../scss/main.scss */
+.txtlogo .newchina {
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+}
+/* line 17, ../scss/main.scss */
+.txtlogo .acupuncture {
+  font-family: 'Oswald', sans-serif;
+  font-weight: normal;
+}
+
+/* line 19, ../scss/main.scss */
 h1 {
   color: #5bc0de;
   font-weight: bold;
 }
 
-/* line 15, ../scss/main.scss */
+/* line 20, ../scss/main.scss */
 h2, h3 {
   color: #5bc0de;
 }
 
-/* line 16, ../scss/main.scss */
+/* line 21, ../scss/main.scss */
 body {
   margin-right: auto;
   margin-left: auto;
@@ -8081,25 +8098,25 @@ body:after {
   clear: both;
 }
 @media (min-width: 768px) {
-  /* line 16, ../scss/main.scss */
+  /* line 21, ../scss/main.scss */
   body {
     width: 750px;
   }
 }
 @media (min-width: 992px) {
-  /* line 16, ../scss/main.scss */
+  /* line 21, ../scss/main.scss */
   body {
     width: 970px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 16, ../scss/main.scss */
+  /* line 21, ../scss/main.scss */
   body {
     width: 1170px;
   }
 }
 
-/* line 30, ../scss/main.scss */
+/* line 35, ../scss/main.scss */
 .wrapper {
   margin-left: -15px;
   margin-right: -15px;
@@ -8115,52 +8132,52 @@ body:after {
   clear: both;
 }
 
-/* line 31, ../scss/main.scss */
+/* line 36, ../scss/main.scss */
 .treatments {
   padding: 0;
 }
 
-/* line 32, ../scss/main.scss */
+/* line 37, ../scss/main.scss */
 .treatments li {
   list-style-type: none;
 }
 
-/* line 33, ../scss/main.scss */
+/* line 38, ../scss/main.scss */
 .navbar {
   border: 0;
   border-radius: 0;
 }
 
-/* line 34, ../scss/main.scss */
+/* line 39, ../scss/main.scss */
 .navbar-default {
   background-color: #1ec7f5;
 }
 
-/* line 35, ../scss/main.scss */
+/* line 40, ../scss/main.scss */
 .navbar-default .navbar-nav > li > a {
   color: #fff;
 }
 
-/* line 36, ../scss/main.scss */
+/* line 41, ../scss/main.scss */
 .navbar-default .navbar-nav > li > a:hover {
   text-decoration: none;
   background-color: #28a9f0;
 }
 
-/* line 37, ../scss/main.scss */
+/* line 42, ../scss/main.scss */
 .navbar-default .navbar-brand {
   color: #fff;
   font-size: 15px;
 }
 
-/* line 38, ../scss/main.scss */
+/* line 43, ../scss/main.scss */
 .carousel-caption {
   background: #000;
   opacity: 0.8;
   filter: alpha(opacity=80);
 }
 
-/* line 39, ../scss/main.scss */
+/* line 44, ../scss/main.scss */
 .top {
   position: relative;
   float: left;
@@ -8170,7 +8187,7 @@ body:after {
   padding-right: 15px;
   padding: 0px 0 20px 0;
 }
-/* line 42, ../scss/main.scss */
+/* line 47, ../scss/main.scss */
 .top .site-logo {
   position: relative;
   min-height: 1px;
@@ -8178,13 +8195,13 @@ body:after {
   padding-right: 15px;
 }
 @media (min-width: 768px) {
-  /* line 42, ../scss/main.scss */
+  /* line 47, ../scss/main.scss */
   .top .site-logo {
     float: left;
-    width: 25%;
+    width: 41.66667%;
   }
 }
-/* line 43, ../scss/main.scss */
+/* line 48, ../scss/main.scss */
 .top .contact {
   position: relative;
   min-height: 1px;
@@ -8192,13 +8209,13 @@ body:after {
   padding-right: 15px;
 }
 @media (min-width: 768px) {
-  /* line 43, ../scss/main.scss */
+  /* line 48, ../scss/main.scss */
   .top .contact {
     float: left;
-    width: 75%;
+    width: 58.33333%;
   }
 }
-/* line 44, ../scss/main.scss */
+/* line 49, ../scss/main.scss */
 .top .btnhealthfund {
   color: #fff;
   background-color: #5bc0de;
@@ -8228,29 +8245,29 @@ body:after {
   color: #5bc0de;
   background-color: #fff;
 }
-/* line 47, ../scss/main.scss */
+/* line 52, ../scss/main.scss */
 .top .btnhealthfund:hover {
   text-decoration: none;
 }
 
-/* line 52, ../scss/main.scss */
+/* line 57, ../scss/main.scss */
 .widget li {
   background-color: #1ec7f5;
   margin: 2px 0;
 }
-/* line 53, ../scss/main.scss */
+/* line 58, ../scss/main.scss */
 .widget li a {
   color: #fff;
   padding: 5px 10px;
   display: block;
 }
-/* line 54, ../scss/main.scss */
+/* line 59, ../scss/main.scss */
 .widget li a:hover {
   text-decoration: none;
   background-color: #28a9f0;
 }
 
-/* line 58, ../scss/main.scss */
+/* line 63, ../scss/main.scss */
 .leftcoldiv .btnsubmit {
   color: #fff;
   background-color: #d9534f;
@@ -8281,16 +8298,16 @@ body:after {
   color: #d9534f;
   background-color: #fff;
 }
-/* line 64, ../scss/main.scss */
+/* line 69, ../scss/main.scss */
 .leftcoldiv h2 {
   margin-top: 0;
 }
-/* line 65, ../scss/main.scss */
+/* line 70, ../scss/main.scss */
 .leftcoldiv .sucess-message {
   color: #bd363f;
 }
 
-/* line 68, ../scss/main.scss */
+/* line 73, ../scss/main.scss */
 .site-content {
   position: relative;
   float: left;
@@ -8299,14 +8316,14 @@ body:after {
   padding-left: 15px;
   padding-right: 15px;
 }
-/* line 70, ../scss/main.scss */
+/* line 75, ../scss/main.scss */
 .site-content .featured {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
 }
-/* line 71, ../scss/main.scss */
+/* line 76, ../scss/main.scss */
 .site-content .featured h4 {
   color: #fff;
   background: #bd363f;
@@ -8315,13 +8332,13 @@ body:after {
   font-size: 14px;
 }
 @media (min-width: 768px) {
-  /* line 70, ../scss/main.scss */
+  /* line 75, ../scss/main.scss */
   .site-content .featured {
     float: left;
     width: 25%;
   }
 }
-/* line 74, ../scss/main.scss */
+/* line 79, ../scss/main.scss */
 .site-content .content {
   position: relative;
   min-height: 1px;
@@ -8332,13 +8349,13 @@ body:after {
   display: inline-block;
 }
 @media (min-width: 768px) {
-  /* line 74, ../scss/main.scss */
+  /* line 79, ../scss/main.scss */
   .site-content .content {
     float: left;
     width: 75%;
   }
 }
-/* line 76, ../scss/main.scss */
+/* line 81, ../scss/main.scss */
 .site-content .content .service {
   position: relative;
   min-height: 1px;
@@ -8346,13 +8363,13 @@ body:after {
   padding-right: 15px;
 }
 @media (min-width: 768px) {
-  /* line 76, ../scss/main.scss */
+  /* line 81, ../scss/main.scss */
   .site-content .content .service {
     float: left;
     width: 50%;
   }
 }
-/* line 78, ../scss/main.scss */
+/* line 83, ../scss/main.scss */
 .site-content .content .about {
   position: relative;
   float: left;
@@ -8361,7 +8378,7 @@ body:after {
   padding-left: 15px;
   padding-right: 15px;
 }
-/* line 79, ../scss/main.scss */
+/* line 84, ../scss/main.scss */
 .site-content .content .hocimg {
   position: relative;
   float: left;
@@ -8371,7 +8388,7 @@ body:after {
   padding-right: 15px;
   padding-left: 0;
 }
-/* line 80, ../scss/main.scss */
+/* line 85, ../scss/main.scss */
 .site-content .content .hocinfo {
   position: relative;
   float: left;
@@ -8381,7 +8398,7 @@ body:after {
   padding-right: 15px;
 }
 
-/* line 87, ../scss/main.scss */
+/* line 92, ../scss/main.scss */
 .venue {
   margin-left: -15px;
   margin-right: -15px;
@@ -8396,7 +8413,7 @@ body:after {
 .venue:after {
   clear: both;
 }
-/* line 90, ../scss/main.scss */
+/* line 95, ../scss/main.scss */
 .venue div {
   position: relative;
   float: left;
@@ -8406,7 +8423,7 @@ body:after {
   padding-right: 15px;
 }
 
-/* line 95, ../scss/main.scss */
+/* line 100, ../scss/main.scss */
 .site-footer {
   position: relative;
   float: left;
@@ -8418,7 +8435,7 @@ body:after {
   background: #1ec7f5;
   padding: 16px;
 }
-/* line 100, ../scss/main.scss */
+/* line 105, ../scss/main.scss */
 .site-footer .city {
   position: relative;
   min-height: 1px;
@@ -8427,13 +8444,13 @@ body:after {
   /*	@include make-sm-column-offset(4);*/
 }
 @media (min-width: 768px) {
-  /* line 100, ../scss/main.scss */
+  /* line 105, ../scss/main.scss */
   .site-footer .city {
     float: left;
     width: 50%;
   }
 }
-/* line 101, ../scss/main.scss */
+/* line 106, ../scss/main.scss */
 .site-footer .fairfield {
   position: relative;
   min-height: 1px;
@@ -8441,14 +8458,14 @@ body:after {
   padding-right: 15px;
 }
 @media (min-width: 768px) {
-  /* line 101, ../scss/main.scss */
+  /* line 106, ../scss/main.scss */
   .site-footer .fairfield {
     float: left;
     width: 50%;
   }
 }
 
-/* line 105, ../scss/main.scss */
+/* line 110, ../scss/main.scss */
 .spin {
   -webkit-animation: spin 2s infinite linear;
   -moz-animation: spin 2s infinite linear;

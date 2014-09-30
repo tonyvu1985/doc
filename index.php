@@ -5,8 +5,8 @@
         <title>doc website</title>
 </head>
 	<?php include_once('nav.php'); ?>
-
         <div class="site-content"> <!-- header -->
+	{{height}}
 		<div class="banner col-md-9">
 			<?php include_once('carousel.php'); ?>
 		</div>
@@ -18,10 +18,11 @@
 		<!-- Left Nav -->
 		<?php include_once('LeftNav.php'); ?>
 		<div class="content">
-			<h1>Welcome to New China Acupuncture Centre</h1>
+			<h2>Welcome to New China Acupuncture Centre</h2>
 			<p>The ancient Chinese people discovered a blueprint for the human body. A timeless system so powerful that it has survived more than 5,000 years. Today, this system for promoting health and wellbeing is known as Traditional Chinese Medicine.</p>
 			<p>As the Western world rediscovers the benefits of the traditional Chinese healing arts, modalities such as Acupuncture and Chinese Herbal Medicine are being recognised for their ability to treat numerous diseases and promote wellbeing, whilst providing a more holistic approach to health.</p>
 			<p>I invite you to browse this site for an introduction to the wonderful world of Traditional Chinese Medicine and discover what Acupuncture & Chinese Herbal Medicine can do for you. Come and experience these ancient healing modalities for yourself and see how you too can reap the benefits of an ageless tradition.</p>
+			<h2>Hoc Ku Huynh</h2>
 			<p>As a practitioner of 35 years in TCM, my expertise is in treating the following conditions:</p>
 			<div class="service">
 				<ul>

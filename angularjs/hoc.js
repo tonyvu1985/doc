@@ -1,3 +1,11 @@
+// get height
+jQuery(document).ready(function(){
+//	alert(jQuery('.site-content').height());
+	if(jQuery('.content').height() < jQuery('.featured').height()){
+		jQuery('.content').height(jQuery('.featured').height());
+	}
+});
+
 var validationApp = angular.module('validationApp', []);
 // create angular controller
 validationApp.controller('mainController', ['$scope', function($scope) {
@@ -10,10 +18,6 @@ $scope.submitted = false; //used so that form errors are shown only after the fo
 	}
 }*/
 }]);
-
-// get height
-//angular.module('',[])
-
 
 // show the message after blur
 validationApp.directive('ngFocus', [function(){
