@@ -2,6 +2,12 @@
 <html lang="en">
 <head>
         <meta charset="UTF-8">
+	<meta name="keywords" content=" Acupuncture Sydney,Acupuncture, Acupressure, Hoc,Hoc Ku, Hoc Ku Huynh, acupuncture treatment,alternative medicine, oriental medicine, pulse, chinese medicine,pain, Australia,TCM, qi, yin, yang, health, back pain,  pain, chinese medicine, traditional chinese medicine, acupuncturist, pregnancy, natural therapy,childbirth, practitioner, associations, disorders,preventative,articles, paediatrics, children, yin yang, five elements,tuina massage,natural therapies, new,china, Herbal Medicine, chinese herbs, acma,accma,aacma, sydney, fairfield, cupping, moxa, moxibustion, health rebates, energy, balance, fatigue, chronic, accupuncture, pulse diagnosis, aacma">
+
+	<meta name="description" content=" acupuncture and acupressure used in the treatment of	illness,pain and disease.">
+	<meta name="keywords" content>
+	<meta name="description" content>
+
         <title>doc website</title>
 </head>
 	<?php include_once('nav.php'); ?>
