@@ -54,7 +54,7 @@
 	</div>
 
 	<div class="contact text-right">
-		<p><a alt="All major health fund accepted" class="btnhealthfund" >All major health fund accepted</a></p>
+		<p><a href="document/Health-Funds.pdf" target="_blank" alt="All major health fund accepted" class="btnhealthfund" >All major health fund accepted</a></p>
 		<h4>SYDNEY CBD & FAIRFIELD</h4>
 		<h4>(02) 8095 0822 or 0418 297 698</h4>
 	</div>
