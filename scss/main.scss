@@ -41,17 +41,11 @@ body{
 .navbar-default .navbar-nav > li > a:hover{text-decoration:none; background-color:$lightblue1;}
 .navbar-default .navbar-brand{color:$white; font-size:15px}
 .carousel-caption{background:#000; opacity:0.8; filter: alpha(opacity=80);}
-.top{
-	@include make-xs-column(12);
-	padding: 0px 0 20px 0;
-	.site-logo{@include make-sm-column(5);}
-	.contact{@include make-sm-column(7);}
-	.btnhealthfund{
-		@include button-variant($white, $brand-info, $btn-info-color);
-		@include button-size($padding-base-vertical, $padding-base-horizontal, $font-size-base, $line-height-base, $border-radius-base); 
-		&:hover{text-decoration:none;}
-		@extend .btnhoc;
-	}
+.btnhealthfund{
+	@include button-variant($white, $brand-info, $btn-info-color);
+	@include button-size($padding-base-vertical, $padding-base-horizontal, $font-size-base, $line-height-base, $border-radius-base); 
+	&:hover{text-decoration:none;}
+	@extend .btnhoc;
 }
 .widget{
 	li{background-color:$lightblue2 ; margin:2px 0;}

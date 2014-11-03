@@ -1,5 +1,5 @@
 <div class="leftcoldiv">
-	<h2>Enquiry Form</h2>
+	<h4>Enquiry Form</h4>
 	<form method="post" name="frmsendemail" id="sendemail" action="send-email.php" novalidate ng-submit="sendemailForm()">
 	<p><input type="text" placeholder="Name" name="requestor" class="form-control" ng-model="requestor" ng-minlength="3" ng-maxlength="30" required /></p>
 	<div class="error-container" ng-show="frmsendemail.requestor.$dirty && frmsendemail.requestor.$invalid && !frmsendemail.requestor.$focused">	

@@ -1,5 +1,5 @@
 <div class="featured">
-	<section class="widget">
+<!--	<section class="widget">
 		<h4>Treatments</h4>
 		<ul class="treatments">
 			<li><a href="diet.php">Diet & Lifestyle</a></li>
@@ -10,7 +10,7 @@
 			<li><a href="article.php">Media Articles</a></li>
 		</ul>
 	</section>
-
+-->
 	<!-- dynamic image -->
 	<?php  include_once('info.php'); ?>
 
@@ -39,7 +39,7 @@
 			<p class="txtsuccess">Thank you for subscribe</p>	
 		</form>
 	</div>
-
+	<?php include_once('enquire.php'); ?>
 </div>
 
 <script type="text/javascript">

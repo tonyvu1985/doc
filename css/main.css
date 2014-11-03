@@ -8046,7 +8046,7 @@ textarea {
 }
 
 /* line 13, ../scss/main.scss */
-.btnhoc, .top .btnhealthfund, .leftcoldiv .btnsubmit {
+.btnhoc, .btnhealthfund, .leftcoldiv .btnsubmit {
   text-align: center;
   text-transform: uppercase;
   margin-top: 20px;
@@ -8178,45 +8178,7 @@ body:after {
 }
 
 /* line 44, ../scss/main.scss */
-.top {
-  position: relative;
-  float: left;
-  width: 100%;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding: 0px 0 20px 0;
-}
-/* line 47, ../scss/main.scss */
-.top .site-logo {
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-@media (min-width: 768px) {
-  /* line 47, ../scss/main.scss */
-  .top .site-logo {
-    float: left;
-    width: 41.66667%;
-  }
-}
-/* line 48, ../scss/main.scss */
-.top .contact {
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-@media (min-width: 768px) {
-  /* line 48, ../scss/main.scss */
-  .top .contact {
-    float: left;
-    width: 58.33333%;
-  }
-}
-/* line 49, ../scss/main.scss */
-.top .btnhealthfund {
+.btnhealthfund {
   color: #fff;
   background-color: #5bc0de;
   border-color: #fff;
@@ -8226,48 +8188,48 @@ body:after {
   border-radius: 4px;
 }
 /* line 11, ../assets/stylesheets/bootstrap/mixins/_buttons.scss */
-.top .btnhealthfund:hover, .top .btnhealthfund:focus, .top .btnhealthfund:active, .top .btnhealthfund.active, .open > .top .btnhealthfund.dropdown-toggle {
+.btnhealthfund:hover, .btnhealthfund:focus, .btnhealthfund:active, .btnhealthfund.active, .open > .btnhealthfund.dropdown-toggle {
   color: #fff;
   background-color: #31b0d5;
   border-color: #e0e0e0;
 }
 /* line 20, ../assets/stylesheets/bootstrap/mixins/_buttons.scss */
-.top .btnhealthfund:active, .top .btnhealthfund.active, .open > .top .btnhealthfund.dropdown-toggle {
+.btnhealthfund:active, .btnhealthfund.active, .open > .btnhealthfund.dropdown-toggle {
   background-image: none;
 }
 /* line 28, ../assets/stylesheets/bootstrap/mixins/_buttons.scss */
-.top .btnhealthfund.disabled, .top .btnhealthfund.disabled:hover, .top .btnhealthfund.disabled:focus, .top .btnhealthfund.disabled:active, .top .btnhealthfund.disabled.active, .top .btnhealthfund[disabled], .top .btnhealthfund[disabled]:hover, .top .btnhealthfund[disabled]:focus, .top .btnhealthfund[disabled]:active, .top .btnhealthfund[disabled].active, fieldset[disabled] .top .btnhealthfund, fieldset[disabled] .top .btnhealthfund:hover, fieldset[disabled] .top .btnhealthfund:focus, fieldset[disabled] .top .btnhealthfund:active, fieldset[disabled] .top .btnhealthfund.active {
+.btnhealthfund.disabled, .btnhealthfund.disabled:hover, .btnhealthfund.disabled:focus, .btnhealthfund.disabled:active, .btnhealthfund.disabled.active, .btnhealthfund[disabled], .btnhealthfund[disabled]:hover, .btnhealthfund[disabled]:focus, .btnhealthfund[disabled]:active, .btnhealthfund[disabled].active, fieldset[disabled] .btnhealthfund, fieldset[disabled] .btnhealthfund:hover, fieldset[disabled] .btnhealthfund:focus, fieldset[disabled] .btnhealthfund:active, fieldset[disabled] .btnhealthfund.active {
   background-color: #5bc0de;
   border-color: #fff;
 }
 /* line 38, ../assets/stylesheets/bootstrap/mixins/_buttons.scss */
-.top .btnhealthfund .badge {
+.btnhealthfund .badge {
   color: #5bc0de;
   background-color: #fff;
 }
-/* line 52, ../scss/main.scss */
-.top .btnhealthfund:hover {
+/* line 47, ../scss/main.scss */
+.btnhealthfund:hover {
   text-decoration: none;
 }
 
-/* line 57, ../scss/main.scss */
+/* line 51, ../scss/main.scss */
 .widget li {
   background-color: #1ec7f5;
   margin: 2px 0;
 }
-/* line 58, ../scss/main.scss */
+/* line 52, ../scss/main.scss */
 .widget li a {
   color: #fff;
   padding: 5px 10px;
   display: block;
 }
-/* line 59, ../scss/main.scss */
+/* line 53, ../scss/main.scss */
 .widget li a:hover {
   text-decoration: none;
   background-color: #28a9f0;
 }
 
-/* line 63, ../scss/main.scss */
+/* line 57, ../scss/main.scss */
 .leftcoldiv .btnsubmit {
   color: #fff;
   background-color: #d9534f;
@@ -8298,16 +8260,16 @@ body:after {
   color: #d9534f;
   background-color: #fff;
 }
-/* line 69, ../scss/main.scss */
+/* line 63, ../scss/main.scss */
 .leftcoldiv h2 {
   margin-top: 0;
 }
-/* line 70, ../scss/main.scss */
+/* line 64, ../scss/main.scss */
 .leftcoldiv .sucess-message {
   color: #bd363f;
 }
 
-/* line 73, ../scss/main.scss */
+/* line 67, ../scss/main.scss */
 .site-content {
   position: relative;
   float: left;
@@ -8316,14 +8278,14 @@ body:after {
   padding-left: 15px;
   padding-right: 15px;
 }
-/* line 75, ../scss/main.scss */
+/* line 69, ../scss/main.scss */
 .site-content .featured {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
 }
-/* line 76, ../scss/main.scss */
+/* line 70, ../scss/main.scss */
 .site-content .featured h4 {
   color: #fff;
   background: #bd363f;
@@ -8332,13 +8294,13 @@ body:after {
   font-size: 14px;
 }
 @media (min-width: 768px) {
-  /* line 75, ../scss/main.scss */
+  /* line 69, ../scss/main.scss */
   .site-content .featured {
     float: left;
     width: 25%;
   }
 }
-/* line 79, ../scss/main.scss */
+/* line 73, ../scss/main.scss */
 .site-content .content {
   position: relative;
   min-height: 1px;
@@ -8349,13 +8311,13 @@ body:after {
   display: inline-block;
 }
 @media (min-width: 768px) {
-  /* line 79, ../scss/main.scss */
+  /* line 73, ../scss/main.scss */
   .site-content .content {
     float: left;
     width: 75%;
   }
 }
-/* line 81, ../scss/main.scss */
+/* line 75, ../scss/main.scss */
 .site-content .content .service {
   position: relative;
   min-height: 1px;
@@ -8363,13 +8325,13 @@ body:after {
   padding-right: 15px;
 }
 @media (min-width: 768px) {
-  /* line 81, ../scss/main.scss */
+  /* line 75, ../scss/main.scss */
   .site-content .content .service {
     float: left;
     width: 50%;
   }
 }
-/* line 83, ../scss/main.scss */
+/* line 77, ../scss/main.scss */
 .site-content .content .about {
   position: relative;
   float: left;
@@ -8378,7 +8340,7 @@ body:after {
   padding-left: 15px;
   padding-right: 15px;
 }
-/* line 84, ../scss/main.scss */
+/* line 78, ../scss/main.scss */
 .site-content .content .hocimg {
   position: relative;
   float: left;
@@ -8388,7 +8350,7 @@ body:after {
   padding-right: 15px;
   padding-left: 0;
 }
-/* line 85, ../scss/main.scss */
+/* line 79, ../scss/main.scss */
 .site-content .content .hocinfo {
   position: relative;
   float: left;
@@ -8398,7 +8360,7 @@ body:after {
   padding-right: 15px;
 }
 
-/* line 92, ../scss/main.scss */
+/* line 86, ../scss/main.scss */
 .venue {
   margin-left: -15px;
   margin-right: -15px;
@@ -8413,7 +8375,7 @@ body:after {
 .venue:after {
   clear: both;
 }
-/* line 95, ../scss/main.scss */
+/* line 89, ../scss/main.scss */
 .venue div {
   position: relative;
   float: left;
@@ -8423,7 +8385,7 @@ body:after {
   padding-right: 15px;
 }
 
-/* line 100, ../scss/main.scss */
+/* line 94, ../scss/main.scss */
 .site-footer {
   position: relative;
   float: left;
@@ -8435,7 +8397,7 @@ body:after {
   background: #1ec7f5;
   padding: 16px;
 }
-/* line 105, ../scss/main.scss */
+/* line 99, ../scss/main.scss */
 .site-footer .city {
   position: relative;
   min-height: 1px;
@@ -8444,13 +8406,13 @@ body:after {
   /*	@include make-sm-column-offset(4);*/
 }
 @media (min-width: 768px) {
-  /* line 105, ../scss/main.scss */
+  /* line 99, ../scss/main.scss */
   .site-footer .city {
     float: left;
     width: 50%;
   }
 }
-/* line 106, ../scss/main.scss */
+/* line 100, ../scss/main.scss */
 .site-footer .fairfield {
   position: relative;
   min-height: 1px;
@@ -8458,14 +8420,14 @@ body:after {
   padding-right: 15px;
 }
 @media (min-width: 768px) {
-  /* line 106, ../scss/main.scss */
+  /* line 100, ../scss/main.scss */
   .site-footer .fairfield {
     float: left;
     width: 50%;
   }
 }
 
-/* line 110, ../scss/main.scss */
+/* line 104, ../scss/main.scss */
 .spin {
   -webkit-animation: spin 2s infinite linear;
   -moz-animation: spin 2s infinite linear;

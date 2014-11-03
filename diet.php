@@ -7,12 +7,7 @@
 	<?php include_once('nav.php'); ?>
 
         <div class="site-content"> <!-- header -->
-		<div class="banner col-md-9">
-			<img src="images/acupuncture-page.jpg" alt="acupuncture" />
-		</div>
-		<div class="col-md-3">
-			<?php include_once('enquire.php'); ?>
-		</div>
+		<img src="images/acupuncture-page.jpg" alt="acupuncture" />
 	</div>
 	<div class="site-content"><!-- content -->
 		<!-- Left Nav -->

@@ -13,12 +13,7 @@
 	<?php include_once('nav.php'); ?>
         <div class="site-content"> <!-- header -->
 	{{height}}
-		<div class="banner col-md-9">
-			<?php include_once('carousel.php'); ?>
-		</div>
-		<div class="col-md-3">
-			<?php include_once('enquire.php'); ?>
-		</div>
+		<?php include_once('carousel.php'); ?>
 	</div>
 	<div class="site-content"><!-- content -->
 		<!-- Left Nav -->

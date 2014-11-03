@@ -1,12 +1,23 @@
 <body ng-app="validationApp" ng-controller="mainController">
 <div class="wrapper">
-
 <meta name="robots" content="nofollow, noindex" />
 <link rel="stylesheet" href="css/main.css">
 <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script src="assets/javascripts/bootstrap.js"></script>
 <script src="angularjs/angular.min.js"></script>
 <script src="angularjs/hoc.js"></script>
+
+<div class="row">
+	<div class="col-md-6 col-xs-12">
+		<a href="/"><img src="images/new-china-acupuncture-logo.png" alt="new china acupuncture logo" /></a>
+	</div>
+
+	<div class="text-right col-md-6 col-xs-12">
+		<p><a href="document/Health-Funds.pdf" target="_blank" alt="All major health fund accepted" class="btnhealthfund" >All major health fund accepted</a></p>
+		<h4>SYDNEY CBD & FAIRFIELD</h4>
+		<h4>(02) 8095 0822 or 0418 297 698</h4>
+	</div>
+</div>
 
 <div class="navbar navbar-default" role="navigation"><!-- Nav bar -->
 	<div class="container-fluid">
@@ -24,7 +35,7 @@
 	      <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">About<span class="caret"></span></a>
 			<ul class="dropdown-menu" role="menu">
 			  <li><a href="about.php">About Hoc</a></li>
-			  <li><a href="article.php">Media aritcles</a></li>
+			  <li><a href="article.php">Media Articles</a></li>
 			</ul>
 		</li>
 	      <li class="dropdown">
@@ -36,7 +47,6 @@
 		  <li><a href="moxibustion.php">Moxibustion</a></li>
 		  <li><a href="tuina.php">Tuina</a></li>
 		<li><a href="fund.php">Health Funds</a></li>
-		<li><a href="article.php">Media Articles</a></li>
 		</ul>   
 	      </li>
 	      <li><a href="condition.php">Conditions</a></li>
@@ -47,18 +57,6 @@
 	  </div><!--/.nav-collapse -->
 	</div><!--/.container-fluid -->
 </div><!-- End Nav bar -->
-
-<div class="top">
-	<div class="site-logo">
-		<a href="/"><img src="images/new-china-acupuncture-logo.png" alt="new china acupuncture logo" /></a>
-	</div>
-
-	<div class="contact text-right">
-		<p><a href="document/Health-Funds.pdf" target="_blank" alt="All major health fund accepted" class="btnhealthfund" >All major health fund accepted</a></p>
-		<h4>SYDNEY CBD & FAIRFIELD</h4>
-		<h4>(02) 8095 0822 or 0418 297 698</h4>
-	</div>
-</div>
 
 
 
