@@ -7,13 +7,13 @@
 <script src="angularjs/angular.min.js"></script>
 <script src="angularjs/hoc.js"></script>
 
-<div class="row">
+<div class="container" style="margin-top:20px">
 	<div class="col-md-6 col-xs-12">
 		<a href="/"><img src="images/new-china-acupuncture-logo.png" alt="new china acupuncture logo" /></a>
 	</div>
 
 	<div class="text-right col-md-6 col-xs-12">
-		<p><a href="document/Health-Funds.pdf" target="_blank" alt="All major health fund accepted" class="btnhealthfund" >All major health fund accepted</a></p>
+		<p><a href="document/Health-Funds.pdf" class="btn btn-info" target="_blank" alt="All major health fund accepted">All major health fund accepted</a></p>
 		<h4>SYDNEY CBD & FAIRFIELD</h4>
 		<h4>(02) 8095 0822 or 0418 297 698</h4>
 	</div>
