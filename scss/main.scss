@@ -16,7 +16,8 @@ textarea{resize: none}
 	.newchina{font-family: 'Oswald', sans-serif; font-weight:bold}
 	.acupuncture{font-family: 'Oswald', sans-serif; font-weight:normal}
 }
-h1{color:#5bc0de; font-weight:bold}
+h1{color:#5bc0de; font-size:26px}
+h2{font-size:26px;}
 h2, h3{color:#5bc0de}
 body{
 	@include container-fixed();
@@ -30,17 +31,35 @@ body{
 	@media(min-width: $screen-lg-min){
 		width: $container-lg;
 	}
-	background:url('../images/seamless_paper_texture.png')repeat top left;
+/*	background:url('../images/seamless_paper_texture.png')repeat top left;*/
 }
-.wrapper{@include make-row();background:$white;}
+.wrapper{@include make-row();background:$white; border: 1px solid #ddd}
 .treatments {padding:0}
 .treatments li{list-style-type:none;}
-.navbar{border:0; border-radius:0}
-.navbar-default{background-color:$lightblue2;}
-.navbar-default .navbar-nav > li > a{color:$white}
-.navbar-default .navbar-nav > li > a:hover{text-decoration:none; background-color:$lightblue1;}
-.navbar-default .navbar-brand{color:$white; font-size:15px}
-.carousel-caption{background:#000; opacity:0.8; filter: alpha(opacity=80);}
+.navbar .navbar-inner {padding: 0;}
+.navbar .nav {margin: 0; display: table; width: 100%;}
+.navbar .nav li {display: table-cell; width: 1%; float: none;}
+.nav > li > a:hover, .nav > li > a:focus , .nav .open > a, .nav .open > a:hover, .nav .open > a:focus{background:none }
+.navbar .nav li a {font-weight: bold; color:#fff; text-align: center; border-left: 1px solid rgba(255, 255, 255, .75); border-right: 1px solid rgba(0, 0, 0, .1);}
+.navbar .nav li:first-child a {border-left: 0; border-radius: 3px 0 0 3px;}
+.navbar .nav li:last-child a {border-right: 0; border-radius: 0 3px 3px 0;}
+.open > .dropdown-menu{width:100%;}
+.dropdown-menu{margin-top:0}
+.dropdown:hover .dropdown-menu {display: block;width:100%;}
+.homeMenu{background-color:#bd363f}
+.aboutMenu, .conditionMenu, .faqMenu{background-color:#28a9f0}
+.treatmentMenu, .nutritionMenu, .contactMenu{background-color:#1ec7f5}
+.homeMenu a, .aboutMenu a, .conditionMenu a, .faqMenu a, .treatmentMenu a, .nutritionMenu a, .contactMenu a{color:#fff;}
+.carousel{border-top: 10px solid #283ead}
+.RHS{
+	background-color:#7ac0db; margin-top:30px; padding-top:10px; padding-bottom:30px;
+	p{font-weight:bold}
+}
+.carousel-caption{
+	left: 5%; top: 0%; text-align: left; width:400px;
+	h1{color:#fff;}
+	p{font-size:25px}
+}
 .widget{
 	li{background-color:$lightblue2 ; margin:2px 0;}
 	li a{color:$white; padding:5px 10px; display:block;
@@ -61,7 +80,7 @@ body{
 .site-content{
 	@include make-xs-column(12);
 	.featured{
-		h4{color:$white; background:$red; padding: 8px 10px; text-transform:uppercase; font-size:14px}
+		h4{color:$white; background:$red; padding: 8px 10px; font-size:14px}
 		@include make-sm-column(3);
 	}
 	.content{
@@ -71,7 +90,7 @@ body{
 		.about{@include make-xs-column(12);}
 		.hocimg{@include make-xs-column(2); padding-left:0}
 		.hocinfo{@include make-xs-column(10);}
-		background: url('../images/giant-panda.png') no-repeat 100% 100%;
+/*		background: url('../images/giant-panda.png') no-repeat 100% 100%;*/
 		padding-bottom:150px;
 		display:inline-block;
 	}
@@ -83,15 +102,6 @@ body{
 	div{
 		@include make-xs-column(6);
 	}
-}
-
-.site-footer{
-	@include make-xs-column(12);
-	color:white;
-	background: $lightblue2;
-	padding: $padding-large-horizontal;
-	.city{@include make-sm-column(6);/*	@include make-sm-column-offset(4);*/}
-	.fairfield{@include make-sm-column(6);}
 }
 
 // spin 

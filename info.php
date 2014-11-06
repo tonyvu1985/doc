@@ -6,7 +6,7 @@
 	$image = substr($sub_url, '1', $sub_url.length - 4);
 	if($image ==""){
 		echo "<h4>Hoc Ku Huynh</h4>";
-		echo "<img src='images/homepage.jpg' alt='Hoc Ku Huynh' />";
+		echo "<img src='images/homepage.jpg' class='img-responsive' alt='Hoc Ku Huynh' />";
 	}else{	
 		foreach($arr_image as $key => $value){
 			if($key == $image){

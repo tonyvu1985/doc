@@ -1,5 +1,5 @@
 <footer class="site-footer">
-	<div class="fairfield">
+<!--	<div class="fairfield">
 		<p>Fairfield Cline - Tuesday, Thursday & Saturday</p>
 		<p>62 Smart St, Fairfield</p>
 		<p>Copyright 2014 New China Acupuncture</p>
@@ -12,7 +12,8 @@
 		<p>Unit 95, Level 2, 515 Kent st, Sydney<br/>2 mins walk from Townhall</p>
 		<p>Phone: (02) 8095 0822<br/>
 		Mobile: 0418 297 698</p>
-	</div>
+	</div>-->
+	<img src="http://newlandtravel.com.au/hoc/images/footer.jpg" class="img-responsive" />
 </footer>
 </div>
 </body>

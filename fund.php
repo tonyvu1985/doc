@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
         <meta charset="UTF-8">
-        <title>acupuncture</title>
+        <title>acupuncture - fund</title>
 </head>
 	<?php include_once('nav.php'); ?>
 
