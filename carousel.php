@@ -19,7 +19,7 @@
           <img src="images/carousel2.jpg" alt="Second slide">
           <div class="container">
             <div class="carousel-caption">
-		<p>Specialising in a range of conditions, including infertility, ,usculo-skeletal problems, stress and anxiety, sports injuries, back pain and headaches.</p>
+		<p>Specialising in a range of conditions, including infertility, musculo-skeletal problems, stress and anxiety, sports injuries, back pain and headaches.</p>
             </div>
           </div>
         </div>
