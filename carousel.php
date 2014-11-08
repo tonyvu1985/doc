@@ -1,4 +1,4 @@
-<div id="hocCarousel" class="carousel slide" data-ride="carousel">
+<div id="hocCarousel" class="carousel slide" data-ride="carousel" data-interval="40000">
       <!-- Indicators -->
       <ol class="carousel-indicators">
         <li data-target="#hocCarousel" data-slide-to="0" class="active"></li>

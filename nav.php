@@ -25,7 +25,7 @@
 	<li><a href="fund.php">Health Funds</a></li>
 	</ul></li>
 	<li class="conditionMenu"><a href="condition.php">Conditions</a></li>
-	<li class="nutritionMenu"><a href="#">Nutrition</a></li>
+	<li class="nutritionMenu"><a href="nutrition.php">Nutrition</a></li>
 	<li class="faqMenu"><a href="faq.php">FAQ</a></li>
 	<li class="contactMenu"><a href="contact.php">Contact</a></li>
 

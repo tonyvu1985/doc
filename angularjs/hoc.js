@@ -1,8 +1,19 @@
-// get height
 jQuery(document).ready(function(){
-//	alert(jQuery('.site-content').height());
-	if(jQuery('.content').height() < jQuery('.featured').height()){
-		jQuery('.content').height(jQuery('.featured').height());
+	var pathname = window.location.pathname;
+	switch (pathname) {
+		case '/': jQuery('.homeMenu').css('background-color','#bd363f');return;
+		case '/about.php': jQuery('.aboutMenu').css('background-color','#bd363f');return;
+		case '/article.php': jQuery('.aboutMenu').css('background-color','#bd363f');return;
+		case '/acupuncture.php': jQuery('.treatmentMenu').css('background-color','#bd363f');return;
+		case '/herbs.php': jQuery('.treatmentMenu').css('background-color','#bd363f');return;
+		case '/cupping.php': jQuery('.treatmentMenu').css('background-color','#bd363f');return;
+		case '/moxibustion.php': jQuery('.treatmentMenu').css('background-color','#bd363f');return;
+		case '/tuina.php': jQuery('.treatmentMenu').css('background-color','#bd363f');return;
+		case '/fund.php': jQuery('.treatmentMenu').css('background-color','#bd363f');return;
+		case '/condition.php': jQuery('.conditionMenu').css('background-color','#bd363f');return;
+		case '/nutrition.php': jQuery('.nutritionMenu').css('background-color','#bd363f');return;
+		case '/faq.php': jQuery('.faqMenu').css('background-color','#bd363f');return;
+		case '/contact.php': jQuery('.contactMenu').css('background-color','#bd363f');return;
 	}
 });
 

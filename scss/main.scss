@@ -46,9 +46,8 @@ body{
 .open > .dropdown-menu{width:100%;}
 .dropdown-menu{margin-top:0}
 .dropdown:hover .dropdown-menu {display: block;width:100%;}
-.homeMenu{background-color:#bd363f}
 .aboutMenu, .conditionMenu, .faqMenu{background-color:#28a9f0}
-.treatmentMenu, .nutritionMenu, .contactMenu{background-color:#1ec7f5}
+.homeMenu, .treatmentMenu, .nutritionMenu, .contactMenu{background-color:#1ec7f5}
 .homeMenu a, .aboutMenu a, .conditionMenu a, .faqMenu a, .treatmentMenu a, .nutritionMenu a, .contactMenu a{color:#fff;}
 .carousel{border-top: 10px solid #283ead}
 .RHS{
@@ -82,6 +81,8 @@ body{
 	.featured{
 		h4{color:$white; background:$red; padding: 8px 10px; font-size:14px}
 		@include make-sm-column(3);
+		margin-top:15px;
+		padding-left:0;
 	}
 	.content{
 		@include make-sm-column(9);
@@ -90,8 +91,6 @@ body{
 		.about{@include make-xs-column(12);}
 		.hocimg{@include make-xs-column(2); padding-left:0}
 		.hocinfo{@include make-xs-column(10);}
-/*		background: url('../images/giant-panda.png') no-repeat 100% 100%;*/
-		padding-bottom:150px;
 		display:inline-block;
 	}
 }
