@@ -1,3 +1,4 @@
+<link rel="icon" type="image/ico" href="images/favicon.ico"/>
 <body ng-app="validationApp" ng-controller="mainController">
 <div class="wrapper">
 <meta name="robots" content="nofollow, noindex" />
