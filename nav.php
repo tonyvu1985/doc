@@ -7,6 +7,10 @@
 <script src="assets/javascripts/bootstrap.js"></script>
 <script src="angularjs/angular.min.js"></script>
 <script src="angularjs/hoc.js"></script>
+<!-- for heading -->
+<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:700' rel='stylesheet' type='text/css'>
+<!-- text -->
+<link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
 
 <ul class="nav nav-justified">
 	<li class="homeMenu"><a href="/">Home</a></li>

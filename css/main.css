@@ -8073,25 +8073,24 @@ textarea {
 h1 {
   color: #5bc0de;
   font-size: 26px;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 /* line 20, ../scss/main.scss */
-h2 {
-  font-size: 26px;
+h2, h3 {
+  color: #5bc0de;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px;
 }
 
 /* line 21, ../scss/main.scss */
-h2, h3 {
-  color: #5bc0de;
-}
-
-/* line 22, ../scss/main.scss */
 body {
   margin-right: auto;
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px;
   /*	background:url('../images/seamless_paper_texture.png')repeat top left;*/
+  font-family: 'Droid Sans', sans-serif;
 }
 /* line 14, ../assets/stylesheets/bootstrap/mixins/_clearfix.scss */
 body:before, body:after {
@@ -8103,19 +8102,19 @@ body:after {
   clear: both;
 }
 @media (min-width: 768px) {
-  /* line 22, ../scss/main.scss */
+  /* line 21, ../scss/main.scss */
   body {
     width: 750px;
   }
 }
 @media (min-width: 992px) {
-  /* line 22, ../scss/main.scss */
+  /* line 21, ../scss/main.scss */
   body {
     width: 970px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 22, ../scss/main.scss */
+  /* line 21, ../scss/main.scss */
   body {
     width: 1170px;
   }

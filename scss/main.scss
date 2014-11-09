@@ -16,9 +16,8 @@ textarea{resize: none}
 	.newchina{font-family: 'Oswald', sans-serif; font-weight:bold}
 	.acupuncture{font-family: 'Oswald', sans-serif; font-weight:normal}
 }
-h1{color:#5bc0de; font-size:26px}
-h2{font-size:26px;}
-h2, h3{color:#5bc0de}
+h1{color:#5bc0de; font-size:26px; font-family: 'Roboto Condensed', sans-serif;}
+h2, h3{color:#5bc0de; font-family: 'Roboto Condensed', sans-serif; font-size:20px}
 body{
 	@include container-fixed();
 
@@ -32,6 +31,7 @@ body{
 		width: $container-lg;
 	}
 /*	background:url('../images/seamless_paper_texture.png')repeat top left;*/
+	font-family: 'Droid Sans', sans-serif;
 }
 .wrapper{@include make-row();background:$white; border: 1px solid #ddd}
 .treatments {padding:0}
