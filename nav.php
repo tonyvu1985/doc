@@ -43,7 +43,7 @@
 
 	<div class="text-right col-md-6 col-xs-12">
 		<p><a href="document/Health-Funds.pdf" class="btn btn-info" target="_blank" alt="All major health funds accepted">All major health funds accepted</a></p>
-		<h4>SYDNEY CBD & FAIRFIELD</h4>
-		<h4>(02) 8095 0822 or 0418 297 698</h4>
+	<!--	<h4>SYDNEY CBD & FAIRFIELD</h4>-->
+		<h4>Sydney CBD (02) 8095 0822<br/>or (02) 9724 4560<br/>Mobile 0418 297 698</h4>
 	</div>
 </div>

@@ -8,7 +8,7 @@
 		<small ng-show="frmsendemail.requestor.$error.required" class="help-block">Name is required.</small>
 	</div>
 
-	<p><input type="number" placeholder="Phone number" name="phone" class="form-control" ng-model="phone" required ng-focus /></p>
+	<p><input type="text" placeholder="Phone number" name="phone" class="form-control" ng-model="phone" required ng-focus /></p>
 	<div class="error-container" ng-show="frmsendemail.phone.$dirty && frmsendemail.phone.$invalid && !frmsendemail.phone.$focused">	
 		<small ng-show="frmsendemail.phone.$error.required" class="help-block">Phone is required.</small>
 		<small ng-show="frmsendemail.phone.$error.number" class="help-block">Phone must contain only number.</small>
@@ -24,14 +24,10 @@
 	
 	<p><input type="text" name="subject" placeholder="Subject" class="form-control"></p>
 	<p><textarea placeholder="Message" name="message" class="form-control"></textarea></p>
-	<div class="venue">
-		<div>
-			<input type="radio" name="place" value="Sydney" checked> Sydney 
-		</div>
-		<div>
-			<input type="radio" name="place" value="Fairfield"> Fairfield
-		</div>
-	</div>
+	<p><select name="place" class="form-control">
+	  <option value="Sydney">Sydney</option>
+	  <option value="Fairfield">Fairfield</option>
+	</select></p>
 	<p><button type="submit" name="submit" id="btnsendemail" class="btn btn-default" ng-disabled="frmsendemail.$invalid">Send Request</button></p>
 	<p class='sucess-message'>Thank you for sending us feedback</p>
 	</form>
