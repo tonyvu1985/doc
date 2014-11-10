@@ -8323,6 +8323,11 @@ body:after {
   padding-right: 15px;
 }
 /* line 81, ../scss/main.scss */
+.site-content .main-image {
+  border-top: 10px solid #bd363f;
+  margin-top: 20px;
+}
+/* line 82, ../scss/main.scss */
 .site-content .featured {
   position: relative;
   min-height: 1px;
@@ -8331,7 +8336,7 @@ body:after {
   margin-top: 15px;
   padding-left: 0;
 }
-/* line 82, ../scss/main.scss */
+/* line 83, ../scss/main.scss */
 .site-content .featured h4 {
   color: #fff;
   background: #bd363f;
@@ -8339,13 +8344,13 @@ body:after {
   font-size: 14px;
 }
 @media (min-width: 768px) {
-  /* line 81, ../scss/main.scss */
+  /* line 82, ../scss/main.scss */
   .site-content .featured {
     float: left;
     width: 25%;
   }
 }
-/* line 87, ../scss/main.scss */
+/* line 88, ../scss/main.scss */
 .site-content .content {
   position: relative;
   min-height: 1px;
@@ -8354,13 +8359,13 @@ body:after {
   display: inline-block;
 }
 @media (min-width: 768px) {
-  /* line 87, ../scss/main.scss */
+  /* line 88, ../scss/main.scss */
   .site-content .content {
     float: left;
     width: 75%;
   }
 }
-/* line 89, ../scss/main.scss */
+/* line 90, ../scss/main.scss */
 .site-content .content .service {
   position: relative;
   min-height: 1px;
@@ -8368,13 +8373,13 @@ body:after {
   padding-right: 15px;
 }
 @media (min-width: 768px) {
-  /* line 89, ../scss/main.scss */
+  /* line 90, ../scss/main.scss */
   .site-content .content .service {
     float: left;
     width: 50%;
   }
 }
-/* line 91, ../scss/main.scss */
+/* line 92, ../scss/main.scss */
 .site-content .content .about {
   position: relative;
   float: left;
@@ -8383,7 +8388,7 @@ body:after {
   padding-left: 15px;
   padding-right: 15px;
 }
-/* line 92, ../scss/main.scss */
+/* line 93, ../scss/main.scss */
 .site-content .content .hocimg {
   position: relative;
   float: left;
@@ -8393,7 +8398,7 @@ body:after {
   padding-right: 15px;
   padding-left: 0;
 }
-/* line 93, ../scss/main.scss */
+/* line 94, ../scss/main.scss */
 .site-content .content .hocinfo {
   position: relative;
   float: left;
@@ -8403,7 +8408,7 @@ body:after {
   padding-right: 15px;
 }
 
-/* line 98, ../scss/main.scss */
+/* line 99, ../scss/main.scss */
 .venue {
   margin-left: -15px;
   margin-right: -15px;
@@ -8418,7 +8423,7 @@ body:after {
 .venue:after {
   clear: both;
 }
-/* line 101, ../scss/main.scss */
+/* line 102, ../scss/main.scss */
 .venue div {
   position: relative;
   float: left;
@@ -8428,7 +8433,7 @@ body:after {
   padding-right: 15px;
 }
 
-/* line 107, ../scss/main.scss */
+/* line 108, ../scss/main.scss */
 .spin {
   -webkit-animation: spin 2s infinite linear;
   -moz-animation: spin 2s infinite linear;

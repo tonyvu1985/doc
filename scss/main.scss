@@ -78,6 +78,7 @@ body{
 
 .site-content{
 	@include make-xs-column(12);
+	.main-image{border-top:10px solid #bd363f; margin-top:20px;}
 	.featured{
 		h4{color:$white; background:$red; padding: 8px 10px; font-size:14px}
 		@include make-sm-column(3);
