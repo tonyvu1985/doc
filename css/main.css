@@ -8138,40 +8138,48 @@ body:after {
 }
 
 /* line 37, ../scss/main.scss */
+.captionbg {
+  background: #000;
+  padding: 1px 0px 10px 20px;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+
+/* line 38, ../scss/main.scss */
 .treatments {
   padding: 0;
 }
 
-/* line 38, ../scss/main.scss */
+/* line 39, ../scss/main.scss */
 .treatments li {
   list-style-type: none;
 }
 
-/* line 39, ../scss/main.scss */
+/* line 40, ../scss/main.scss */
 .navbar .navbar-inner {
   padding: 0;
 }
 
-/* line 40, ../scss/main.scss */
+/* line 41, ../scss/main.scss */
 .navbar .nav {
   margin: 0;
   display: table;
   width: 100%;
 }
 
-/* line 41, ../scss/main.scss */
+/* line 42, ../scss/main.scss */
 .navbar .nav li {
   display: table-cell;
   width: 1%;
   float: none;
 }
 
-/* line 42, ../scss/main.scss */
+/* line 43, ../scss/main.scss */
 .nav > li > a:hover, .nav > li > a:focus, .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
   background: none;
 }
 
-/* line 43, ../scss/main.scss */
+/* line 44, ../scss/main.scss */
 .navbar .nav li a {
   font-weight: bold;
   color: #fff;
@@ -8180,100 +8188,100 @@ body:after {
   border-right: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-/* line 44, ../scss/main.scss */
+/* line 45, ../scss/main.scss */
 .navbar .nav li:first-child a {
   border-left: 0;
   border-radius: 3px 0 0 3px;
 }
 
-/* line 45, ../scss/main.scss */
+/* line 46, ../scss/main.scss */
 .navbar .nav li:last-child a {
   border-right: 0;
   border-radius: 0 3px 3px 0;
 }
 
-/* line 46, ../scss/main.scss */
+/* line 47, ../scss/main.scss */
 .open > .dropdown-menu {
   width: 100%;
 }
 
-/* line 47, ../scss/main.scss */
+/* line 48, ../scss/main.scss */
 .dropdown-menu {
   margin-top: 0;
 }
 
-/* line 48, ../scss/main.scss */
+/* line 49, ../scss/main.scss */
 .dropdown:hover .dropdown-menu {
   display: block;
   width: 100%;
 }
 
-/* line 49, ../scss/main.scss */
+/* line 50, ../scss/main.scss */
 .aboutMenu, .conditionMenu, .faqMenu {
   background-color: #28a9f0;
 }
 
-/* line 50, ../scss/main.scss */
+/* line 51, ../scss/main.scss */
 .homeMenu, .treatmentMenu, .nutritionMenu, .contactMenu {
   background-color: #1ec7f5;
 }
 
-/* line 51, ../scss/main.scss */
+/* line 52, ../scss/main.scss */
 .homeMenu a, .aboutMenu a, .conditionMenu a, .faqMenu a, .treatmentMenu a, .nutritionMenu a, .contactMenu a {
   color: #fff;
 }
 
-/* line 52, ../scss/main.scss */
+/* line 53, ../scss/main.scss */
 .carousel {
   border-top: 10px solid #283ead;
 }
 
-/* line 53, ../scss/main.scss */
+/* line 54, ../scss/main.scss */
 .RHS {
   background-color: #7ac0db;
   margin-top: 30px;
   padding-top: 10px;
   padding-bottom: 30px;
 }
-/* line 55, ../scss/main.scss */
+/* line 56, ../scss/main.scss */
 .RHS p {
   font-weight: bold;
 }
 
-/* line 57, ../scss/main.scss */
+/* line 58, ../scss/main.scss */
 .carousel-caption {
   left: 5%;
   top: 0%;
   text-align: left;
   width: 400px;
 }
-/* line 59, ../scss/main.scss */
+/* line 60, ../scss/main.scss */
 .carousel-caption h1 {
   color: #fff;
 }
-/* line 60, ../scss/main.scss */
+/* line 61, ../scss/main.scss */
 .carousel-caption p {
   font-size: 25px;
 }
 
-/* line 63, ../scss/main.scss */
+/* line 64, ../scss/main.scss */
 .widget li {
   background-color: #1ec7f5;
   margin: 2px 0;
 }
-/* line 64, ../scss/main.scss */
+/* line 65, ../scss/main.scss */
 .widget li a {
   color: #fff;
   padding: 5px 10px;
   display: block;
 }
-/* line 65, ../scss/main.scss */
+/* line 66, ../scss/main.scss */
 .widget li a:hover {
   text-decoration: none;
   background-color: #28a9f0;
 }
 
-/* line 69, ../scss/main.scss */
+/* line 70, ../scss/main.scss */
 .leftcoldiv .btnsubmit {
   color: #fff;
   background-color: #d9534f;
@@ -8304,16 +8312,16 @@ body:after {
   color: #d9534f;
   background-color: #fff;
 }
-/* line 75, ../scss/main.scss */
+/* line 76, ../scss/main.scss */
 .leftcoldiv h2 {
   margin-top: 0;
 }
-/* line 76, ../scss/main.scss */
+/* line 77, ../scss/main.scss */
 .leftcoldiv .sucess-message {
   color: #bd363f;
 }
 
-/* line 79, ../scss/main.scss */
+/* line 80, ../scss/main.scss */
 .site-content {
   position: relative;
   float: left;
@@ -8322,12 +8330,12 @@ body:after {
   padding-left: 15px;
   padding-right: 15px;
 }
-/* line 81, ../scss/main.scss */
+/* line 82, ../scss/main.scss */
 .site-content .main-image {
   border-top: 10px solid #bd363f;
   margin-top: 20px;
 }
-/* line 82, ../scss/main.scss */
+/* line 83, ../scss/main.scss */
 .site-content .featured {
   position: relative;
   min-height: 1px;
@@ -8336,7 +8344,7 @@ body:after {
   margin-top: 15px;
   padding-left: 0;
 }
-/* line 83, ../scss/main.scss */
+/* line 84, ../scss/main.scss */
 .site-content .featured h4 {
   color: #fff;
   background: #bd363f;
@@ -8344,13 +8352,13 @@ body:after {
   font-size: 14px;
 }
 @media (min-width: 768px) {
-  /* line 82, ../scss/main.scss */
+  /* line 83, ../scss/main.scss */
   .site-content .featured {
     float: left;
     width: 25%;
   }
 }
-/* line 88, ../scss/main.scss */
+/* line 89, ../scss/main.scss */
 .site-content .content {
   position: relative;
   min-height: 1px;
@@ -8359,13 +8367,13 @@ body:after {
   display: inline-block;
 }
 @media (min-width: 768px) {
-  /* line 88, ../scss/main.scss */
+  /* line 89, ../scss/main.scss */
   .site-content .content {
     float: left;
     width: 75%;
   }
 }
-/* line 90, ../scss/main.scss */
+/* line 91, ../scss/main.scss */
 .site-content .content .service {
   position: relative;
   min-height: 1px;
@@ -8373,13 +8381,13 @@ body:after {
   padding-right: 15px;
 }
 @media (min-width: 768px) {
-  /* line 90, ../scss/main.scss */
+  /* line 91, ../scss/main.scss */
   .site-content .content .service {
     float: left;
     width: 50%;
   }
 }
-/* line 92, ../scss/main.scss */
+/* line 93, ../scss/main.scss */
 .site-content .content .about {
   position: relative;
   float: left;
@@ -8388,7 +8396,7 @@ body:after {
   padding-left: 15px;
   padding-right: 15px;
 }
-/* line 93, ../scss/main.scss */
+/* line 94, ../scss/main.scss */
 .site-content .content .hocimg {
   position: relative;
   float: left;
@@ -8398,7 +8406,7 @@ body:after {
   padding-right: 15px;
   padding-left: 0;
 }
-/* line 94, ../scss/main.scss */
+/* line 95, ../scss/main.scss */
 .site-content .content .hocinfo {
   position: relative;
   float: left;
@@ -8408,7 +8416,7 @@ body:after {
   padding-right: 15px;
 }
 
-/* line 99, ../scss/main.scss */
+/* line 100, ../scss/main.scss */
 .venue {
   margin-left: -15px;
   margin-right: -15px;
@@ -8423,7 +8431,7 @@ body:after {
 .venue:after {
   clear: both;
 }
-/* line 102, ../scss/main.scss */
+/* line 103, ../scss/main.scss */
 .venue div {
   position: relative;
   float: left;
@@ -8433,7 +8441,7 @@ body:after {
   padding-right: 15px;
 }
 
-/* line 108, ../scss/main.scss */
+/* line 109, ../scss/main.scss */
 .spin {
   -webkit-animation: spin 2s infinite linear;
   -moz-animation: spin 2s infinite linear;
