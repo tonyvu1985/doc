@@ -13,7 +13,7 @@
 		<!-- Left Nav -->
 		<?php include_once('LeftNav.php'); ?>
 		<div class="content">
-			<h1>Featuring Hoc Ku Huynh</h1>
+			<h1>Media Articles Featuring Hoc Ku Huynh</h1>
 			<ul>
 				<li><a target="_blank" href="document/Sunday-Life-Pins-Needles.pdf">Sunday Life - Pins & Needles</a></li>
 				<li><a target="_blank" href="document/Weekend-Aust-No-Nausea-is-Just-the-Point.pdf">Weekend Aust - No Nausea is Just the Point</a></li>
