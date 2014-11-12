@@ -47,6 +47,7 @@
 			</div>
 			<div class="col-sm-3 RHS text-right">
 				<p>Conditions treated</p>
+				Infertility Support<br/>
 				Acupuncture Facelift<br/>
 				Back Pain<br/>
 				Bell's Palsy<br/>

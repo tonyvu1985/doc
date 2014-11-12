@@ -29,13 +29,13 @@
 				<li>Common cold</li>
 			</ul>
 			</div></div>
-			<h2>RESPIRATORY SYSTEM:</h2>
+			<h2>Respiratory System:</h2>
 			<ul>
 				<li>Acute bronchitis</li>
 				<li>Bronchial asthma</li>
 			</ul>
 			<p>(most effective in children and in patients without complicating disease)</p>
-			<h2>GASTRO-INTESTINAL DISORDERS:</h2>
+			<h2>Gastro-Intestinal Disorders:</h2>
 			<div class="row">
                         <div class="service">
 			<ul>
@@ -57,7 +57,7 @@
 			</ul>
 			</div>
 			</div>
-			<h2>NEUROLOGICAL AND MUSCULAR-SKELETAL DISORDERS:</h2>
+			<h2>Neurological and Muscular-Skeletal Disorders:</h2>
 			<div class="row">
                         <div class="service">
 			<ul>
@@ -84,7 +84,7 @@
 			</ul>
 			</div>
 			</div>
-			<h2>DISORDERS OF THE EYE:</h2>
+			<h2>Disorders of the eye:</h2>
 			<div class="row">
                         <div class="service">
 			<ul>
@@ -99,13 +99,13 @@
 			</ul>
 			</div>
 			</div>
-			<h2>DISORDERS OF THE MOUTH:</h2>
+			<h2>Disorders of the mouth:</h2>
 			<ul>
 				<li>Toothache, post-extraction pain</li>
 				<li>Acute and chronic pharyngitis etc.</li>
 				<li>Gingivitis</li>
 			</ul>
-			<h2>OTHER DISORDERS:</h2>
+			<h2>Other Disorders:</h2>
 			<div class="row">
                         <div class="service">
 			<ul>
