@@ -11,7 +11,7 @@
 		foreach($arr_image as $key => $value){
 			if($key == $image){
 				echo "<h4>" . $value . "</h4>";
-				echo "<img src='images/" . $image . ".jpg' alt='" . $image . "' />";
+				echo "<img class='img-responsive' src='images/" . $image . ".jpg' alt='" . $image . "' />";
 			}
 		}
 	}	

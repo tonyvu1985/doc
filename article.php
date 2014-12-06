@@ -7,7 +7,7 @@
 	<?php include_once('nav.php'); ?>
 
         <div class="site-content"> <!-- header -->
-		<img class="main-image" src="images/acupuncture-page.jpg" alt="acupuncture" />
+		<img class="main-image img-responsive" src="images/acupuncture-page.jpg" alt="acupuncture" />
 	</div>
 	<div class="site-content"><!-- content -->
 		<!-- Left Nav -->
