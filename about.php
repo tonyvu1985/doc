@@ -15,10 +15,10 @@
 		<div class="content">
 			<h1>About Hoc Ku Huynh</h1>
 			<div class="about">
-				<div class="hocimg">
+				<div class="col-md-3 col-xs-12">
 					<img src="images/Hoc.jpg" lt="hoc" />
 				</div>	
-				<div class="hocinfo">
+				<div class="col-md-9 col-xs-12">
 <!--					<p>The acupuncturist is able to influence health and sickness by stimulating certain areas along these "meridians". Traditionally these areas or acupoints were stimulated by fine, slender needles. Today, many additional forms of stimulation are incorporated, including herbs, electricity, magnets and lasers.</p>-->
 					<p>Hoc Ku Huynh has been practicing acupuncture and Chinese herbal medicine for over 36 years. He has experience in treating many types illness and conditions. He has been an advocate for the development, improving the profession and standards of Acupuncture and Chinese Medicine both in Australia and worldwide.</p>
 					<p>He is a highly respected practitioner amongst his peers and colleagues and is continually improving his skills and techniques.</p>
